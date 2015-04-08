@@ -1,0 +1,70 @@
+window._IFOCUS_CONTROL_=true;!function(){var _win=window,_dc=document,_rnd = (""+Math.random()).slice(2,8),_scs=document.getElementsByTagName("script"),_sc=_scs[_scs.length-1];
+(new Image).src="http://tk.icast.cn/?t=[EXTTYPE]&v=[EXTVALUE]&sn=[RND]&st=[SESSIONID]&cp=CP1504010009&ft=FT1504010026&ct=CT150401011&tg=3607&tgs=&pm=PM1304284215&kw=".replace("[EXTTYPE]","ExtCount22").replace("[EXTVALUE]","1").replace("[RND]",_rnd.slice(0,4)).replace("[SESSIONID]",_rnd);function loadJs(_sUrl,_fn,_m){var _script=_dc.createElement("script");_script.type="text/javascript";_script.src=_sUrl;_script.onload=_script.onreadystatechange=function(){if(!_script.readyState||_script.readyState.match(/loaded|complete/i)){_fn();_script.onload=_script.onreadystatechange=null}};_m=_dc.getElementsByTagName("script")[0];_m.parentNode.insertBefore(_script,_m)};function run(){iCast5["2.5.2"].load({"sessionID":"2765ADC5-6482-2913-068D-A7FFA834D105","campaignID":"CP1504010009","aid":"PM1304284215","clkUrl":"http://c.admaster.com.cn/c/a50937,b537910,c1071,i0,m101,j5945,h|||http://v.admaster.com.cn/i/a50939,b537923,c1071,i0,m202,j5945,h","impTrack":"http://adm.icast.cn/count/common/?idtype=1&idtype=1&id=FT1504010026&bid=2765ADC5-6482-2913-068D-A7FFA834D105&flight_id=FT1504010026-3607&uid=0070062ddb562c992a7f320a0e869cb0&ask_price=2&t_s_id=&etime=2015-04-15&k=1&ext=ZmM9Q0VPLTMtMS0xLTI5OlBNMTMwNDI4NDIxNSZtZWRpYV9pZD0x&campaign_id=CP1504010009&flight_id=FT1504010026-3607&feature_id=3607&sub_feature_id=&pos_id=PM1304284215&c_p_id=&c_id=CT150401011&t_id=&partner_id=&kw=&ask_price=2&r=[RND]&ext=ZmM9Q0VPLTMtMS0xLTI5OlBNMTMwNDI4NDIxNSZtZWRpYV9pZD0x&etime=2015-04-15&uid=0070062ddb562c992a7f320a0e869cb0&t_s_id=&k=1&bk_id=&t=cpm\nhttp://v.admaster.com.cn/i/a50937,b537910,c1071,i0,m202,j5945,h\nhttp://a.irs01.com/hat?_t=i&_htsinfo=SSY1JjQyMiY4MTImNzE2NyZh8A==\n","clkTrack":"http://adm.icast.cn/count/common/?idtype=1&idtype=1&id=FT1504010026&bid=2765ADC5-6482-2913-068D-A7FFA834D105&flight_id=FT1504010026-3607&uid=0070062ddb562c992a7f320a0e869cb0&ask_price=2&t_s_id=&etime=2015-04-15&k=1&ext=ZmM9Q0VPLTMtMS0xLTI5OlBNMTMwNDI4NDIxNSZtZWRpYV9pZD0x&campaign_id=CP1504010009&flight_id=FT1504010026-3607&feature_id=3607&sub_feature_id=&pos_id=PM1304284215&c_p_id=&c_id=CT150401011&t_id=&partner_id=&kw=&ask_price=2&r=[RND]&ext=ZmM9Q0VPLTMtMS0xLTI5OlBNMTMwNDI4NDIxNSZtZWRpYV9pZD0x&etime=2015-04-15&uid=0070062ddb562c992a7f320a0e869cb0&t_s_id=&k=1&bk_id=&t=cpc\nhttp://a.irs01.com/hat?_t=r&_htsinfo=QyY1JjQyMiY4MTImNzE2NyahyQ==\n","actTrack":"","extTrack":"http://tk.icast.cn/?t=[EXTTYPE]&v=[EXTVALUE]&sn=[RND]&st=[SESSIONID]&cp=CP1504010009&ft=FT1504010026&ct=CT150401011&tg=3607&tgs=&pm=PM1304284215&kw=","cid":"CT150401011", "pid":"PM1304284215", 
+"params":{
+
+"ad_volume":"20"
+,
+"ad_volctrl":"-1"
+,
+"ad_stop":"0"
+,
+"ad_mousectrl":"0"
+
+},
+"poses":{
+"origPos":[
+
+{"tag":"main",
+"materialScale":"stretch",
+"zi":2147483647,
+"size":{"canExpand":0,"size":[300,250],"autoFit":1},
+"location":{"rt":"_here","rf":"_viewport","rp":9,"sp":9,"dx":0,"dy":0},
+"materials":{
+	"main":{"type":"swf","f":"http://res.icast.cn/Real/1574/88/300x250_国语_30s.swf","w":300,"h":250}
+}}
+
+], 
+"extdPos":[
+
+{"tag":"crn1",
+"vi":0,
+"materialScale":"stretch",
+"size":{"canExpand":0,"size":[100,100],"autoFit":0},
+"third":1,
+"location":{"rt":"_here","rf":"_viewport","rp":9,"sp":9,"dx":0,"dy":0},
+"materials":{
+	"main":{"type":"swf","f":"http://res.icast.cn/Real/1574/88/100x100.swf","w":100,"h":100}
+}}
+,
+{"tag":"cls1",
+"vi":0,
+"materialScale":"stretch",
+"size":{"canExpand":1,"size":[8,8],"autoFit":1},
+"third":1,
+"location":{"rt":"af","rf":"&main","rp":3,"sp":3,"dx":-3,"dy":3},
+"materials":{
+	"main":{"type":"pic","f":"http://res.icast.cn/adtypes/mclose.gif","w":10,"h":10}
+}}
+,
+{"tag":"logo",
+"vi":0,
+"materialScale":"stretch",
+"size":{"canExpand":0,"size":[67,15],"autoFit":1},
+"third":1,
+"location":{"rt":"af","rf":"&main","rp":7,"sp":7,"dx":6,"dy":-6},
+"materials":{
+	"main":{"type":"pic","f":"http://res.icast.cn/adtypes/logo.png","w":67,"h":15}
+}}
+,
+{"tag":"cls2",
+"vi":0,
+"materialScale":"stretch",
+"size":{"canExpand":0,"size":[10,10],"autoFit":0},
+"third":1,
+"location":{"rt":"af","rf":"&crn1","rp":3,"sp":3,"dx":0,"dy":0},
+"materials":{
+	"main":{"type":"pic","f":"http://res.icast.cn/adtypes/mclosek.gif","w":10,"h":10}
+}}
+
+],"extDomObjs":{}},
+"displayLogic":{"init":[["dt1","DownTimer","=0.02"],["dt2","DownTimer","=0.02"],["ct1","Counter"],["ct3","Counter"],["ct4","Counter"],["ct5","Counter"],["ti1","Timer"],["f1","Func","if(this.params.poses.extdPos[2].materials.main.w<=1)this.params.poses.origPos[0].location.dy=0"]],"adStart":["f1"],"interactive":[[["_ad","onInit"],[],[["@dt1","start"],["_ad","trackImp"],["_ad","trackExt",11,1]]],[["@dt1","onEnd"],[["&main","isLoaded","isTrue"],["&crn1","isLoaded","isTrue"],["&cls1","isLoaded","isTrue"],["&cls2","isLoaded","isTrue"],["&logo","isLoaded","isTrue"]],[["@ct1","count"]],[["@dt1","start"]]],[["@ct1","onCount"],[["=-1","==","*ad_volctrl"]],[["&main","mute"]],[],[["&main","play"],["&cls1","show"],["&logo","show"],["@ti1","start"]]],[["@ct3","onCount"],[["=0","==","*ad_volctrl"]],[],[["&main","mute"]],[["&main","replay"],["&cls1","show"],["&logo","show"],["&cls2","hide"],["&crn1","close"],["_ad","trackExt",14,1],["@ti1","start"]]],[["@ct4","onCount"],[["@ct5","count","==","=0"]],[["_ad","trackExt",16,1],["_ad","trackExt",17,"@ti1.time"],["@ti1","reset"]],[["@ct5","reset"]],[["&crn1","play"],["&cls2","show"],["&cls1","hide"],["&logo","hide"],["&main","close"]]],[["&main","onEnd"],[["=0","==","*ad_stop"]],[["@ct5","count"],["&main","goto","close"]],[["@ct5","count"]],[["_ad","trackExt",12,1],["_ad","trackExt",13,"@ti1.time"],["@ti1","reset"]]],[["&cls1","onClick"],[],[["&cls1","hide"],["&main","goto","close"]]],[["&main","onXClose"],[],[["&cls1","hide"],["&main","goto","close"]]],[["&main","onClose"],[],[["@ct4","count"]]],[["&crn1","onClick"],[],[["@ct3","count"]]],[["&crn1","onMouseOver"],[["=1","==","*ad_mousectrl"]],[["@ct3","count"]]],[["&main","onClick"],[],[["_ad","trackClk"],["_ad","trackExt",15,1]]],[["&main","onPause"],[],[["@ti1","pause"]]],[["&main","onReplay"],[["@ct5","count","==","=0"]],[["_ad","trackExt",17,"@ti1.time"],["@ti1","reset"],["@ti1","start"]]],[["&main","onRewind"],[],[["_ad","trackExt",17,"@ti1.time"],["@ti1","reset"]]],[["&main","onPlay"],[["@ti1","running","==","=1"]],[["@ti1","continue"]],[["@ti1","start"]]],[["&cls2","onClick"],[],[["&cls2","hide"],["&crn1","close"],["_ad","trackExt",21,1],["_ad","unload"]]],[["&logo","onClick"],[],[["_ad","open","http://www.hdtmedia.com/"]]]]}},_sc)};loadJs('http://res.icast.cn/adtypes/icast5-2.5.2.js', run)}()

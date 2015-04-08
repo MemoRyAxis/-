@@ -1,0 +1,143 @@
+﻿/*新闻页面样式*/
+#main{/**/}
+.topCrumb{background: #FFF;color: #999;height: 18px;overflow: hidden;width: 100%;}
+.topCrumb li{color: #999;display: inline-block;float: left;height: 18px;line-height: 18px;margin-right: 7px;overflow: hidden;}
+.topCrumb li a{margin-right: 5px;}
+.topCrumb li a.cur{color: #46A107;}
+.topCrumb span{color: #888;float: right;}
+.topCrumb span em{font-family: Arial;}
+
+/*新闻首页*/
+.index .focus{margin-top: 10px;}
+.index .focus .left{background: #DDD;display: inline-block;float: left;margin-right: 10px;padding: 5px;width: 400px;}
+.index .focus .right{display: inline-block;float: left;width: 540px;}
+.index .focus .sliderBox{height: 300px;width: 400px;overflow: hidden;}
+.index .focus .topNews{border: 1px solid #46A107;height: 300px;overflow: hidden;padding: 4px;position: relative;}
+.index .focus .topNews .bg{background: url(../images/news/newsbg.gif) no-repeat 0 -175px;height: 55px;width: 55px;overflow: hidden;position: absolute;left: 0;top: 0;}
+.index .focus .topNews ul{padding: 0 6px;}
+.index .focus .topNews li{background: url(../images/dot.gif) no-repeat 0 12px;border-bottom: 1px solid #F0F0F0;height: 30px;line-height: 30px;font-size: 12px;overflow: hidden;padding-left: 10px;}
+.index .focus .topNews li span{color: #888;float: right;font-family: Arial;}
+.index .focus .topNews li.top{background: #FFF;height: auto;padding: 0 0 4px;}
+.index .focus .topNews li.top h2{height: 46px;overflow: hidden;text-align: center;}
+.index .focus .topNews li.top h2 a{color: #328605 !important;font: bold 18px/46px "微软雅黑","宋体",Arial;}
+.index .focus .topNews li.top div{color: #888;height: 60px;line-height: 20px;text-indent: 2em;}
+
+/*图视界*/
+.index .picNews{background: #FFF;border: 1px solid #CDCDCD;height: 151px;margin-top: 10px;overflow: hidden;padding: 10px 0 10px 78px;position: relative;width: 880px;}
+.index .picNews li{display: inline-block;float: left;margin-right: 10px;width: 166px;}
+.index .picNews li a{background: #FFF;display: block;height: 125px;padding-bottom: 26px;position: relative;width: 166px;}
+.index .picNews li a div{height: 18px;line-height: 18px;overflow: hidden;padding: 0;position: absolute;top: 133px;left: 0;text-align: center;width: 166px;}
+.index .picNews .more{height: 171px;width: 68px;position: absolute;top: 0;left: 0;}
+.index .picNews .more a{background: url(../images/news/newsbg.gif) no-repeat 0 0;display: block;height: 171px;width: 68px;}
+
+/*新闻首页各分类模块*/
+.index .mod{width: 960px;overflow: hidden;}
+.index .mod .outer{width: 980px;overflow: hidden;}
+.index .mod .box{border: 1px solid #CCC;border-top: 2px solid #46A107;display: inline;float: left;margin: 10px 10px 0 0;width: 473px;}
+.index .mod h2.hd{border-bottom: 1px solid #CCC;height: 32px;line-height: 32px;overflow: hidden;padding: 0 10px;}
+.index .mod h2.hd span{background: url(../images/arrowbg.gif) no-repeat 0 -514px;float: right;padding-left: 10px;}
+.index .mod h2.hd b{color: #000;font: bold 12px/32px "微软雅黑","宋体",Arial;}
+.index .mod .content{padding: 10px;height: 254px;}
+.index .mod li{background: url(../images/dot.gif) no-repeat 0 12px;border-bottom: 1px solid #F0F0F0;height: 30px;line-height: 30px;font-size: 12px;overflow: hidden;padding-left: 10px;}
+.index .mod li span{color: #888;float: right;font-family: Arial;}
+.index .mod li.top{background: #FFF;height: auto;padding: 0 0 4px;}
+.index .mod dt{height: 94px;overflow: hidden;width: 124px;float: left;}
+.index .mod dt a{border: 1px solid #CCC;display: block;height: 90px;width: 120px;padding: 1px;}
+.index .mod dt a:hover{border-color: #46A107;}
+.index .mod dd{float: left;height: 20px;line-height: 20px;margin-left: 10px;overflow: hidden;padding-top: 2px;width: 319px;}
+.index .mod dd.desc{color: #888;height: 54px;line-height: 18px;margin-top: 5px;text-align: justify;}
+.index .mod dd a{color: #328605;}
+
+/*新闻列表页、详情页*/
+.news .container{margin-top: 10px;}
+.news .container .left{background: #FFF;float: left;margin-right: 10px;width: 680px;}
+.news .container .right{float: left;width: 270px;}
+.news .container .left .boxes{border: 1px solid #CCC;border-top: 2px solid #46A107;}
+.news .container .left .curNav{border-bottom: 1px solid #EEE;height: 32px;line-height: 32px;overflow: hidden;padding: 0 10px;}
+.news .container .left .curNav b{color: #000;font-weight: normal;}
+.news .container .itemList{padding: 10px;}
+.news .container .itemList ul{border-bottom: 1px solid #E0E0E0;margin-bottom: 10px;padding: 0 0 10px;}
+.news .container .itemList li{background: url(../images/dot.gif) no-repeat 0 12px;height: 30px;line-height: 30px;font-size: 12px;overflow: hidden;padding-left: 10px;}
+.news .container .itemList li span{color: #888;float: right;font-family: Arial;}
+.news .container .listBanner{background: #FFF;}
+.news .container .listBanner li{margin-bottom: 10px;}
+.news .container .listBanner li a{background: #CCC;display: block;height: 90px;position: relative;width: 270px;}
+.news .container .listBanner li div{color: #FFF;height: 22px;line-height: 22px;overflow: hidden;padding: 0 5px;position: absolute;top: 68px;left: 0;text-align: center;width: 260px;}
+.news .container .listBanner li div.bg{background: #000;filter: alpha(opacity=70);opacity: 0.7;}
+.news .container .listBanner li a:hover div.bg{background: #46A107;}
+.news .container .boxes{background: #FFF;border: 1px solid #CCC;border-top: 2px solid #46A107;}
+.news .container .boxes h2.hd{border-bottom: 1px solid #CCC;height: 32px;line-height: 32px;overflow: hidden;padding: 0 10px;}
+.news .container .boxes h2.hd span{background: url(../images/arrowbg.gif) no-repeat 0 -514px;float: right;padding-left: 10px;}
+.news .container .boxes h2.hd b{color: #000;font: bold 12px/32px "微软雅黑","宋体",Arial;}
+.news .container .ranking .content{padding: 5px 10px 5px 5px;}
+.news .container .ranking ul{background: url(../images/news/rankingbg.gif) no-repeat 0 9px;padding-left: 19px;}
+.news .container .ranking li{height: 30px;line-height: 30px;overflow: hidden;text-align: justify;}
+.news .container .picNews{margin-top: 10px;}
+.news .container .picNews .content{padding: 10px 0 0 10px;}
+.news .container .picNews li{display: inline-block;float: left;height: 89px;overflow: hidden;padding: 0 10px 10px 0;width: 119px;}
+.news .container .picNews li a{background: #CCC;display: block;height: 89px;width: 119px;}
+.news .nextBox{width:658px;padding:10px 10px;border-top:1px dashed #ccc;}
+.news .nextBox span{width:658px;float:left;margin-bottom:5px}
+
+/*详情页*/
+.news .mainContent{background: #FFF;overflow: hidden;padding: 15px;width: 648px;}
+.news .mainContent .hd{border-bottom: 1px solid #E0E0E0;padding-bottom: 3px;}
+.news .mainContent .hd h1{color: #000;font: 26px/32px "微软雅黑","宋体",Arial;padding-bottom: 15px;text-align: left;}
+.news .mainContent .titleBar li{color: #888;height: 24px;line-height: 24px;float: left;margin-right: 10px;overflow: hidden;}
+.news .mainContent .titleBar li span{color: #333;}
+.news .mainContent .titleBar li a{color: #46A107;}
+.news .mainContent .titleBar li em{font-family: Arial;}
+.news .mainContent .titleBar li.share{float: right;margin-right: 0;}
+.news .mainContent .content{font-size: 14px;line-height: 26px;margin-top: 10px;overflow:hidden;}
+.news .comments{background: #FFF;margin-top: 10px;}
+.news .comments .hd em{color: #F60;font-weight: bold;}
+.news .comments .content{overflow: hidden;padding: 10px;width: 658px;}
+.news .formBox .inputArea{border: 1px solid #DDD;border-radius: 3px;height: 120px;line-height: 20px;padding: 5px;width: 646px;}
+.news .formBox .btnBox{color: #888;height: 30px;line-height: 30px;margin-top: 3px;_margin-top: 5px;overflow: hidden;}
+.news .formBox .btnBox span{float: right;width: 90px;}
+.news .formBox .btn{background: url(../images/btnbg.gif) no-repeat 0 0;border: 0;cursor: pointer;color: #FFF;height: 30px;width: 90px;}
+.news .formBox .btn:hover{background-position: 0 -35px;}
+.news .message{color: #666;margin-top: 10px;}
+.news .message li{border-top: 1px solid #EEE;padding: 8px 0;}
+.news .message li .info{background: #F3F3F3;color: #000;height: 20px;line-height: 20px;padding: 5px;}
+.news .message li .info span{color: #666;float: right;}
+.news .message li p{line-height: 18px;margin-top: 5px;padding: 0 5px;text-align: justify;}
+.news_listText{font-size:14px;margin-top:20px;padding-bottom:15px;border-bottom:1px #ddd dashed;}
+.news_listText li{height:25px;line-height:25px;}
+.news_listText li span{float:right;font-size:12px;color:#999;}
+
+/* 新闻翻页样式 */
+.newspage { padding:20px 0 0 0;}
+.newspage a {display:inline-block;padding:5px 8px 4px 8px;border:#E4E4E4 1px solid;color:#666;text-decoration:none;cursor:pointer;margin-left:6px;}
+.newspage a:hover {border:#CF5D02 1px solid;color:#fff;background:#FF7101;}
+.newspage span.current{display:inline-block;padding:5px 8px 4px 8px;color:#fff;background:#FF7101;border:#CF5D02 1px solid;margin-left:6px;}
+.newspage span.no {display:inline-block;border:1px #E4E4E4 solid;padding:5px 8px 4px 8px;color:#666;text-decoration:none;}
+
+/**评论页**/
+.reviews{}
+.reviews h2.hd{border-bottom: 1px solid #CCC;height: 32px;line-height: 32px;overflow: hidden;padding: 0 10px;}
+.reviews h2.hd span{background: url(../images/arrowbg.gif) no-repeat 0 -514px;float: right;padding-left: 10px;}
+.reviews h2.hd b{color: #000;font: bold 12px/32px "微软雅黑","宋体",Arial;}
+.mainContent{background: #FFF;overflow: hidden;padding: 15px;width: 648px;}
+.mainContent .hd{border-bottom: 1px solid #E0E0E0;padding-bottom: 3px;}
+.mainContent .hd h1{color: #000;font: 26px/32px "微软雅黑","宋体",Arial;padding-bottom: 15px;text-align: left;}
+.mainContent .titleBar li{color: #888;height: 24px;line-height: 24px;float: left;margin-right: 10px;overflow: hidden;}
+.mainContent .titleBar li span{color: #333;}
+.mainContent .titleBar li a{color: #46A107;}
+.mainContent .titleBar li em{font-family: Arial;}
+.mainContent .titleBar li.share{float: right;margin-right: 0;}
+.mainContent .content{font-size: 14px;line-height: 26px;margin-top: 10px;}
+.reviews{}
+.reviews .hd em{color: #46A107;}
+.reviews .content{overflow: hidden;padding: 10px 10px 0;width: 658px;}
+.formBox .inputArea{border: 1px solid #DDD;border-radius: 3px;height: 120px;line-height: 20px;padding: 5px;width: 646px;}
+.formBox .btnBox{color: #888;height: 30px;line-height: 30px;margin-top: 3px;_margin-top: 5px;overflow: hidden;}
+.formBox .btnBox span{float: right;width: 90px;}
+.formBox .btn{background: url(../images/btnbg.gif) no-repeat 0 0;border: 0;cursor: pointer;color: #FFF;height: 30px;width: 90px;}
+.formBox .btn:hover{background-position: 0 -35px;}
+.message{color: #666;margin-top: 10px;}
+.message li{border-top: 1px solid #EEE;padding: 8px 0;}
+.message li .info{background: #F3F3F3;color: #000;height: 20px;line-height: 20px;padding: 5px;}
+.message li .info span{color: #666;float: right;}
+.message li p{line-height: 18px;margin-top: 5px;padding: 0 5px;text-align: justify;}
+.error{color:red;}

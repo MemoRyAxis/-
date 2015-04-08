@@ -1,0 +1,205 @@
+/* CSS Document */
+/* 
+  *	********** 移除元素的   padding, margin  **********
+  */
+  
+ html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td, input, textarea {
+	margin: 0;
+	padding: 0;
+}
+/* 
+  *	********** 定义基本元素的样式 	 默认字体：宋体	  **********
+  */
+ body {
+	font-family:宋体;
+	font-size:12px;
+}
+img {
+	vertical-align: top;
+	border-width:0;
+}
+ol, ul {
+	list-style: none;
+}
+li {
+	list-style-type: none;
+}
+caption, th {
+	text-align: left;
+}
+address, caption, cite, code, dfn, ins, em, th, var {
+	font-weight:normal;
+	font-style:normal;
+}
+input, textarea {
+	font-size: 12px;
+	padding: 2px;
+}
+/* **** 基本的文本输入框样式 ****	   */
+ .input-text, .textarea {
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+.input-text {
+	line-height: 12px;
+	height: 12px;
+}
+.clear {
+	clear:both;
+	font-size:0;
+	line-height:0;
+	height:0;
+	margin:0;
+	padding:0;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+a {
+	text-decoration: none; color:#333333
+}
+a:hover, a:active, a:focus {
+    color: #6D360F;
+    text-decoration: underline;
+}
+/* @end **/
+body {
+    background: url("epaper_bg00.jpg") repeat scroll 0 0 transparent;
+}
+#navbar {
+    background: url("nav_bg.jpg") repeat-x scroll 0 0 transparent;
+    height: 34px;
+    margin: 0 auto;
+    width: 100%;
+}
+#navbar ul {
+    height: 34px;
+    margin: 0 auto;
+    width: 970px;
+}
+#navbar ul li {
+    float: left;
+    height: 34px;
+    line-height: 32px;
+    padding: 0 13px;
+}
+#navbar ul li a {
+    color: #DF0000;
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.part01 {width:1000px;margin:0 auto;padding-bottom:5px;background:#f7f7f7;}
+.part01 .part01_left {width:400px;float:left;}
+.part01 .part01_right {width:600px;float:right;}
+
+.pagepic {width:400px;height:586px;background:url("bg_bmt.jpg") no-repeat #ffffff;position: relative;}
+.pagename {width:400px;height:30px;background:#f6f6f6;}
+.pagename .pagename_left {float:left;line-height:30px;padding-left:15px;display:inline;font-size: 12px;} 
+.pagename .pagename_right {float:right;line-height:30px;padding-right:15px;display:inline;font-size: 12px;} 
+.pagenav {width:400px;height:240px;background:#f6f6f6;}
+.pagenav h2 {font-size:14px;font-weight:bold;color:#333;width:378px;height:37px;background:url("bg_banmian.jpg") repeat-x;border:1px solid #999999;line-height:32px;padding-left:20px;}
+.pagenav .pagenavlist {height:189px; overflow-y:auto;border:1px solid #999999;}
+.pagenav .pagenavlist ul {}
+.pagenav .pagenavlist ul li {line-height:28px;padding-left: 30px;background:url("icon.gif") no-repeat scroll 10px center transparent;border-bottom: 1px dotted #888888;}
+
+
+.part01_right01  {width:600px;height:100px;background:url("bg_banner.jpg") repeat-x;}
+.part01_right01 .pagelogo {float:left;width:280px;padding:10px 0 0 10px;display:inline;}
+.part01_right01 .wqhg {float:right;padding:60px 15px 0 0;display:inline;position: relative;}
+.part01_right01 .wqhg .gotonj{position: absolute;right: 15px;top:15px;}
+.part01_right02  {width:600px;height:40px;background:url("bg_bar2.jpg") no-repeat;}
+.part01_right02  .updn {float:left;line-height:40px;padding-left:10px;display:inline;}
+.part01_right02  .updn a {color:#ffffff;font-size:12px;margin:0 0 0 8px;font-weight: normal;text-decoration: none;}
+.part01_right02  .updn span {color:#ffffff;font-size:12px;margin:0 0 0 8px;font-weight: normal;text-decoration: none;}
+.part01_right02  .date {float:right;line-height:40px;padding-right:20px;display:inline;color:#ffffff;font-size:14px;font-weight: bold;text-decoration: none;}
+.block  {width:600px;padding-top:10px;}
+.block_l {width:330px;float:left;}
+.block_l h2 {font-size:14px;font-weight:bold;color:#333;height:40px;background:url("bg_banmian.jpg") repeat-x;line-height:32px;padding-left:20px;margin-bottom:5px;}
+.block_l ul {height: 651px;overflow-y: auto;}
+.block_l ul li {line-height:28px;padding-left:12px;}
+.block_r {width:260px;float:right;}
+.block_r .search {height:24px;margin-bottom:5px;}
+#calendarBox {border: 1px solid #BDDBF7;width:258px;background:#ffffff;margin-bottom:5px;}
+#calendarBox h2 {text-align:center;font-size:12px;font-weight:bold;background:url("bg-2.jpg") repeat-x;height:24px;line-height:24px;}
+.block_r .topnews {width:260px;}
+
+.block01 {height:24px;width:100%;background:#EBEBEB;border-bottom: 1px solid #787878;}
+.block01 .nextlink {float:left;display:inline;width:140px;height:24px;line-height:24px;color:#333333;font-size:12px;}
+.block01 .nextlink a {color:#333333;}
+.block01 .nextlink a:hover {color:#6D360F;text-decoration: none;}
+.block01 .pageinfo {float:left;display:inline;width:360px;height:24px;line-height:24px;text-align:center;color: #888888;font-family: "宋体";font-size: 16px;font-style: normal;font-variant: normal;font-weight: bold;}
+.block01 .pagenum {float:right;display:inline;width:90px;height:24px;line-height:24px;color:#333333;font-size:12px;}
+
+.block02 .title {text-align:center;}
+.block02 .title .title1 {font-family: "宋体";font-size: 24px;font-style: normal;font-variant: normal;font-weight: bold;line-height: normal;color: #333333;padding-top: 10px;}
+.block02 .title .title2 {font-family: "宋体";font-size: 16px;font-style: normal;font-variant: normal;font-weight: bold;line-height: normal;color: #827E7B;padding-top: 10px;}
+.block02 .title .title3 {font-family: "宋体";font-size: 16px;font-style: normal;font-variant: normal;font-weight: bold;line-height: normal;color: #827E7B;}
+.block02 .content {margin-top:10px;padding:0 20px;}
+.block02 .content .content_pic {text-align:center;font-size: 12px;line-height: 22px;}
+.block02 .content .content_pic table tbody tr td {text-align:center;width: 556px;}
+.block02 .content .content_tt {font-size: 12px;line-height: 22px;margin: auto;padding: 10px;}
+.block02 .nextlink {height:24px;line-height:24px;color:#333333;font-size:12px;border-top:#787878 1px solid;text-align:center;}
+
+#bmdh ul {width:190px;background:#ffffff;}
+#bmdh ul li {padding-left:10px;height:20px;line-height:20px;font-size:12px;}
+
+
+
+.part02 {width:1000px;height:32px;padding-top:5px;margin:0 auto;background:url("bg-red.jpg") repeat-x;}
+.part02 span {line-height:32px;color:#ffffff;padding-left:25px;background:url("lid.jpg") no-repeat scroll 10px center transparent;display:inline;}
+
+.footer {
+    height: 115px;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1000px;
+	background:#f7f7f7;
+}
+.footer p {
+    line-height: 24px;
+    text-align: center;
+	font-weight: normal;text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+/* ʽ */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,table,td,img,div,input,dl,dt,dd{margin:0;padding:0;border:0;}
+body{background:#fff;color:#5a5a5a;font-size:12px;font-family: "";}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+a:link,a:visited{text-decoration:none;}
+a:active,a:hover{text-decoration:underline;}
+
+.st_gpzs{width:270px;height:240px;padding:11px 14px 0;border:1px #a3cce0 solid;background:#dbe9f4;}
+.st_gpzs h3{line-height:35px;height:35px;color:#3965a4;font-size:14px;}
+
+.search_in {width:215px;height: 21px;position:relative;zoom:1;z-index:10;}
+.search_in .input_seachin{line-height: 12px;height:14px;width: 160px;border: 1px solid #999999;padding:3px 2px 2px;}
+.autocomplete3 {width:200px;position: absolute;left:0;top:28px;z-index:1000;background: #fff;border: 1px solid #999;text-align:left;z-index:10;}
+.autocomplete3 li {font-size:12px;line-height:20px;height:20px;padding:0 10px;cursor:pointer;}
+.autocomplete3 li.selected {color: #CC3300;background-color: #FFFDEC;font-weight: bold;}
+.menu_seachin {background: url(http://img.caijing.com.cn/stock/homebg_hp1.jpg) 0 bottom repeat-x;border: 1px solid #999999;line-height:12px;padding:1px;*padding:2px;width:48px;height:21px;margin-left:-1px; cursor:pointer;}
+
+.st_search_in {width:270px;height: 26px;position:relative;zoom:1;margin-top:8px;z-index:10;}
+.st_search_in .input_seachin{float:left;line-height:12px;height:14px;width:205px;border:1px solid #cccccc;color:#979797;padding:5px 2px 5px;padding:7px 2px 3px\9;background:url(http://img.caijing.com.cn/stock/search_bg.gif) 0 0 repeat-x;}
+.st_menu_seachin {float:left;background:url(http://img.caijing.com.cn/stock/search_but.gif) 0 0 no-repeat;width:30px;height:26px;margin-left:-1px; cursor:pointer;}
+.st_search_in span{float:left;width:30px;height:26px;line-height:26px;color:#fff;background:#7da2bd;text-align:center;}
+
+.bg_page {border-collapse: collapse;border-spacing: 0;}
+.bg_page tr td{border:1px solid #000;}
+
+

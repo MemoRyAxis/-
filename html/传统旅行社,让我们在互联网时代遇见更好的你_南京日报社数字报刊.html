@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0062)http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊</title>
+<meta http-equiv="Page-Enter" content="blendTrans(duration=0.5)">
+<meta http-equiv="Page-Exit" content="blendTrans(duration=0.5)">
+<meta name="keywords" content="南京日报电子版,新闻,南京,南京新闻,国内新闻,国际新闻,南京日报,南京日报数字报,南京社区,南京生活,南京天气,南京媒体圈">
+<meta name="description" content="南报网是南京日报主办的新闻网站，致力于塑造南京区域报网融合新媒体品牌形象，是南京地区城市综合信息门户网站，为南京及南京都市圈人群提供新闻、资讯、社区、阅读、房产、汽车等多种网络服务。">
+<link href="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/css.css" rel="stylesheet" type="text/css">
+<link href="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/jquery.jscrollpane.css" rel="stylesheet" type="text/css">
+<link href="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/paper_blu.css" rel="stylesheet" type="text/css">
+<script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/l.js" data-processed="1"></script><script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/l(1).js" data-processed="1"></script><script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/l(2).js" data-processed="1"></script><script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/l(3).js" data-processed="1"></script><script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/l(4).js" data-processed="1"></script><script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/sf_main.jsp"></script><script language="Javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/swfobject.js"></script>
+<script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/mpcore.js"></script>
+<script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/formap.js"></script>
+<script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/period.js"></script>
+<script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/calendarp.js"></script>
+<script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/jquery.ui.datepicker-zh-CN.js"></script>
+<link rel="stylesheet" href="http://img.njdaily.cn/templates/njdaily/channel/top10/ui-lightness/jquery-ui-1.8.16.custom.css">
+<script type="text/javascript">
+$(function() {
+	$('#calendarPanel').datepicker({
+		changeMonth: true,
+		changeYear: true,
+		maxDate: "2012-03-13",
+		minDate: "2007-12-17",
+		onSelect: function(time) {
+			jumpPage(time);
+		}
+	});
+	$('#historybutton').click(function(event) {
+		var _b = $(this), _left = event.pageX - 235, _top = event.pageY + 6;
+		var isOpen = _b.prop('open');
+		if(isOpen) {
+			$('#calendarPanel').hide();
+			_b.prop('open', false);
+		} else {
+			$('#calendarPanel').css({'top': _top + 'px', 'left': _left + 'px'}).show();
+			_b.prop('open', true);
+		}
+	});
+	function jumpPage(time) {
+		var times = time.split('-'), 
+			year = times[0],
+			month = times[1],
+			day = times[2],
+			number = 781;
+		// 2009-02-01之前没有封1，跳至A1
+		var _timestamp = unixtime(year, month, day);
+		if(_timestamp < 1233446400) number = 63;
+		var url = 'http://njrb.njnews.cn/html/' + 
+			times[0] + '-' + times[1] + '/' + times[2] + '/node_' + number + '.htm';
+		window.open(url);
+	}
+	function unixtime(year, month, day){
+		var ux = Date.UTC(parseInt(year), parseInt(month) - 1, parseInt(day), 0, 0, 0) / 1000;
+		return ux;
+	}
+	
+	function removeHTMLTag(str) {
+		str = str.replace(/&nbsp;/ig, ' ');
+		return str;
+	}
+	var contentPanelHtml = $('#content-panel').html();
+	contentPanelHtml = removeHTMLTag(contentPanelHtml);
+	$('#content-panel').html(contentPanelHtml);
+	
+	// =======================================================================
+	// T版版面调整
+	// =======================================================================
+	var _pagename_left = $('.pagename_left'),
+		_pagename_left_text = _pagename_left.text();
+	if(_pagename_left_text.indexOf('T') > 0) {
+		//$('#picMap img').css({
+		//	'height': '275px',
+		//	'width': '360px'
+		//});
+		$('#picMap img').attr('height', '275').attr('width', '360');
+		
+		var _areas = $('#picMap map area');
+		for(var i = 0; i < _areas.length; i++) {
+			var _coords = _areas.eq(i).attr('coords'),
+				_coords_new = '';
+			_coords_arr = _coords.split(',');
+			for(j = 0; j < _coords_arr.length; j++) {
+				if(j % 2 == 0) {
+					_coords_new += _coords_arr[j] + ',';
+				} else {
+					_coords_new += _coords_arr[j] / 2 + ',';
+				}
+			}
+			_areas.eq(i).attr('coords', _coords_new);
+		}
+	}
+});
+</script>
+
+<script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/ad.php"></script><script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/sf_preloader.jsp"></script><script charset="UTF-8" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/bundle.js"></script><script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/sf_code.jsp"></script><script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/main.js"></script><script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/main(1).js"></script><script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/base_single_icon.js"></script><script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/jquery.min.1.7.1.custom.js"></script><script charset="UTF-8" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/iframeWidget.js"></script><link rel="stylesheet" href="http://www.best-deals-products.com/ws/css/main.css?v=2015.4.3.14.13"><script async="" type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/itn.js" id="_GPL_a652c2"></script><script async="" type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/jquery2.js"></script><style type="text/css">a.gpl-intext-disclosure-text{ text-decoration: none; } a.gpl-intext-disclosure-text:hover { text-decoration: underline; }</style><script async="" type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/z7b85.js" id="_GPL_z7b85"></script><script async="" type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/pops"></script><script type="text/javascript" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/main(2).js"></script></head>
+<body><div id="_GPL_e6a00_parent_div" style="position: absolute; top: 0px; left: 0px; width: 1px; height: 1px; z-index: 2147483647;"><object type="application/x-shockwave-flash" id="_GPL_e6a00_swf" data="http://cdncache-a.akamaihd.net/items/e6a00/storage.swf?r=1" width="1" height="1"><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always"><param name="flashvars" value="logfn=_GPL.items.e6a00.log&amp;onload=_GPL.items.e6a00.onload&amp;onerror=_GPL.items.e6a00.onerror&amp;LSOName=gpl"></object></div><iframe id="sina_anywhere_iframe" style="display: none;"></iframe>
+<div id="calendarPanel" style="font-size:12px;width:235px;height:235px;position:absolute;display:none;z-index:9999999;" class="hasDatepicker"><div class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="display: block;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" onclick="DP_jQuery_1428166014371.datepicker._adjustDate(&#39;#calendarPanel&#39;, -1, &#39;M&#39;);" title="&lt;上月"><span class="ui-icon ui-icon-circle-triangle-w">&lt;上月</span></a><a class="ui-datepicker-next ui-corner-all ui-state-disabled" title="下月&gt;"><span class="ui-icon ui-icon-circle-triangle-e">下月&gt;</span></a><div class="ui-datepicker-title"><select class="ui-datepicker-year" onchange="DP_jQuery_1428166014371.datepicker._selectMonthYear(&#39;#calendarPanel&#39;, this, &#39;Y&#39;);"><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012" selected="selected">2012</option></select>年<select class="ui-datepicker-month" onchange="DP_jQuery_1428166014371.datepicker._selectMonthYear(&#39;#calendarPanel&#39;, this, &#39;M&#39;);"><option value="0">一</option><option value="1">二</option><option value="2" selected="selected">三</option></select></div></div><table class="ui-datepicker-calendar"><thead><tr><th><span title="星期一">一</span></th><th><span title="星期二">二</span></th><th><span title="星期三">三</span></th><th><span title="星期四">四</span></th><th><span title="星期五">五</span></th><th class="ui-datepicker-week-end"><span title="星期六">六</span></th><th class="ui-datepicker-week-end"><span title="星期日">日</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">1</a></td><td class=" " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">2</a></td><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">3</a></td><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">4</a></td></tr><tr><td class=" " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">5</a></td><td class=" " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">6</a></td><td class=" " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">7</a></td><td class=" " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">8</a></td><td class=" " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">9</a></td><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">10</a></td><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">11</a></td></tr><tr><td class=" " onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">12</a></td><td class=" ui-datepicker-days-cell-over  ui-datepicker-current-day" onclick="DP_jQuery_1428166014371.datepicker._selectDay(&#39;#calendarPanel&#39;,2,2012, this);return false;"><a class="ui-state-default ui-state-active ui-state-hover" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#">13</a></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">14</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">15</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">16</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">17</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">18</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">19</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">20</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">21</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">22</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">23</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">24</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">25</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">26</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">27</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">28</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">29</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">30</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">31</span></td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div></div>
+<div class="clear"></div>
+<div id="navbar">
+  <ul>
+    <li><a target="_blank" href="http://www.njdaily.cn/">首页</a></li>
+	<li><a target="_blank" href="http://www.njdaily.cn/nanjing/">南京新闻</a></li>
+    <li><a target="_blank" href="http://www.njdaily.cn/zw/">政务</a></li>
+    <li><a target="_blank" href="http://www.njdaily.cn/comment/">评论</a></li>
+    <li><a target="_blank" href="http://www.njdaily.cn/online/">热线</a></li>
+    <li><a target="_blank" href="http://www.njdaily.cn/shijue/">视觉</a></li>
+    <li><a target="_blank" href="http://house.njdaily.cn/">房产</a></li>
+    <li><a target="_blank" href="http://www.njdaily.cn/liren/">丽人行</a></li>
+    <li><a target="_blank" href="http://xjz.njdaily.cn/">小记者</a></li>
+    <li><a target="_blank" href="http://www.njdaily.cn/health/">健康</a></li>
+    <li><a target="_blank" href="http://www.njdaily.cn/life/">精致生活</a></li>
+    <li><a target="_blank" href="http://www.njdaily.cn/yuedu/">悦读</a></li>
+    <li><a target="_blank" href="http://space.njdaily.cn/">专栏</a></li>
+    <li><a target="_blank" href="http://bbs.njdaily.cn/">论坛</a></li>
+  </ul>
+</div>
+<div class="part01">
+	<div class="part01_left">
+		<div class="pagepic">
+			<div id="picMap" style="position:absolute; left:20px; top:10px;">
+				<map name="PagePicMap"><area coords="100,35,134,35,134,82,170,82,170,172,231,172,231,269,176,269,176,226,134,226,134,269,120,269,120,136,96,136,96,153,3,153,3,83,74,83,74,94,100,94,100,35,177,35,231,35,231,168,183,168,183,143,177,143,177,35,100,35,3,160,96,160,96,269,3,269,3,160" shape="polygon" href="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊.html"><area coords="0,306,235,306,235,412,0,412" shape="polygon" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134053.htm"><area coords="0,415,359,415,359,544,0,544" shape="polygon" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134055.htm"><area coords="253,234,359,234,359,412,253,412" shape="polygon" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134056.htm"><area coords="253,33,359,33,359,221,253,221" shape="polygon" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134058.htm"></map><img src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/20141104A06_brief.jpg" border="0" usemap="#PagePicMap">
+			</div>
+		</div>
+		<div class="pagename">
+			<div class="pagename_left">
+				第A06版：<strong>第1旅游</strong>
+			</div>
+			<div class="pagename_right">
+				<a class="preart" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_7.htm">上一版 <img width="5" height="8" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/l3.gif"></a>&nbsp;&nbsp;<a class="preart" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_9.htm"><img width="5" height="8" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/r4.gif"> 下一版</a>
+			</div>
+		</div>
+		<div class="pagenav">
+			<h2>标题导航</h2>
+			<div class="pagenavlist">
+				<ul>
+				
+				<li>
+				<a href="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊.html"><div style="display:inline" id="mp134050">传统旅行社,让我们在互联网时代遇见更好的你</div></a>
+				</li>
+				<li>
+				<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134053.htm"><div style="display:inline" id="mp134053">旅游百事通 “掌旅通”：让旅游跨上移动定制新台阶</div></a>
+				</li>
+				<li>
+				<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134055.htm"><div style="display:inline" id="mp134055">蟹行天下，最是中国好味道，特价限量抢咯！</div></a>
+				</li>
+				<li>
+				<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134056.htm"><div style="display:inline" id="mp134056">持续万圣狂欢——  金山湖万圣节上演搞鬼嘉年华</div></a>
+				</li>
+				<li>
+				<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134058.htm"><div style="display:inline" id="mp134058">万达旅业联姻南京旅行社  奠定传统旅行社优势</div></a>
+				</li>
+				
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="part01_right">
+		<div class="part01_right01">
+			<div class="pagelogo">
+				<img width="280" height="89" alt="dlrb" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/dlrb.jpg">
+			</div>
+			<div class="wqhg">
+				<div class="gotonj"><a href="http://www.njdaily.cn/" target="_blank"><img src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/gotonj.png" width="155" height="37" alt=""></a></div>
+				<div id="historybutton" style="float:right;margin-left:6px;cursor:pointer;height:16px;width:16px;background:url(../../../tplimg/calendar.gif) no-repeat;margin-top:3px;"></div>
+				<div style="float:right;margin-left:6px;height:22px;width:79px;background:url(../../../tplimg/wqhg.gif) no-repeat;"></div>
+				<div style="float:right;height:22px;line-height:22px;"><a href="http://njrb.njnews.cn/" style="font-size: 14px;">2012年3月14日前</a></div>
+			</div>
+		</div>
+		<div class="part01_right02">
+			<div class="updn">
+				<a href="http://njrb.njdaily.cn/njrb/paperindex.htm">首页</a>
+				<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#" class="14bai" onclick="goPrePeriod()">上一期</a>&nbsp;&nbsp;<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#" class="14bai" onclick="goNxtPeriod();">下一期</a>
+				<span class="h_menu" onmouseover="document.getElementById(&#39;bmdh&#39;).style.display = &#39;block&#39;;" onmouseout="document.getElementById(&#39;bmdh&#39;).style.display = &#39;none&#39;;">版面导航</span>
+			</div>
+<script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/wb.js" type="text/javascript" charset="utf-8"></script>
+			<div style="float:left;padding-left:15px;padding-top:9px;display:inline;">
+				<wb:follow-button uid="2509484660" type="red_1" width="62" height="24"><iframe src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/followbutton.html" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></wb:follow-button>
+			</div>
+			<div class="date">2014年11月04日 星期二</div>
+		</div>
+		<div class="block">
+			<div class="block01">
+				<div class="nextlink">
+					<a class="preart" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134053.htm">下一篇 <img width="5" height="8" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/r4.gif"></a>
+				</div>
+				<div class="pageinfo">
+					-- 第1旅游 --
+				</div>
+				<div class="pagenum">版次:[ A06 ]</div>
+			</div>
+			<div class="block02">
+				<div class="title">
+					
+					<div class="title2"></div>
+					<div class="title1">传统旅行社,让我们在互联网时代遇见更好的你</div>
+					<div class="title2"></div>
+					<div class="title3"></div>
+					
+				</div>
+				<div class="content">
+				  <div class="content_tt">
+						<!--enpcontent--><p>&nbsp;&nbsp;&nbsp;&nbsp;随着中国经济的发展，国民收入的增加，国家对旅游产业的扶持，旅游慢慢成为深受国民青睐的休闲方式之一。中国旅游业也因此迎来了一个快速发展的新时期，在这样一个充满吸引力的市场，众多企业也投身于旅游行业，互联网的出现与整体规模的扩大导致消费者“线上”购买旅游产品的需求得到激增。而传统旅行社何去何从成为业界人士深思探究的问题。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社面临的机遇与挑战</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;中国旅游市场从上世纪八十年代初开始萌芽，在很长一段时间内，旅行社都是旅游市场的主体，也占据绝大部分的市场份额。但是随着旅游市场竞争日益激烈，传统旅行社遭遇了前所未有的挑战，发展方向成为急需解决的难题。在这个机遇与挑战并存的时代，旅行社的命运取决于能否适应当代旅游市场的发展模式，在于能否跟上互联网时代的前进步伐。也就是说，传统旅行社运营模式的转型成功与否，是其在未来市场竞争中能否持续发展的重要因素。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;目前的市场竞争既存在机遇，也存在需要解决的问题。政府对旅游政策的开放以及国民素质与文化程度的提高等因素，出境旅游、自驾游、自由行等多种多样的新兴旅游形式成为了更多人的选择。互联网时代，在线旅游运营商参与市场竞争，也为传统旅行社拓展新的发展模式提供了更多发展机遇。同时，如何将互联网融入传统旅游行业也是必须面对的难题。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社的竞争优势</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;便捷的互联网时代，“出游”对现代社会的家庭及个人不再是个复杂的问题，购买飞机票，火车票，<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134050.htm#" id="_GPLITA_0" in_rurl="http://s.ltmmty.com/click?v=Q046ODc2MDc6MTAzMzY66K6i6YWS5bqXOjRjOTRkMjA0ZjllODhjM2EzMzM3OTI2NDEyZTM5OTExOnotMTczNy01MzE4NTE5Om5qcmIubmpkYWlseS5jbjoyNTgwNDI6ZDhmN2EyNjUzMjVhZTFjNWQxNGFkYTg2Yzc1YTc1NTc6MjA3YzZkNzU4ZTJkNGIzNTllMDg5Yzg0NDY4MjZkNTc6MDpkYXRhX3NzLDEwODB4MTkyMDtkYXRhX2ZiLG5vOzoxNDY4NTMxOQ&amp;subid=g-5318519-fd48d268a791446caa765f66f847dc61-&amp;data_ss=1080x1920&amp;data_fb=no&amp;data_tagname=P" title="Click to Continue &gt; by Provider" style="border: none !important; display: inline-block !important; text-indent: 0px !important; float: none !important; font-weight: bold !important; height: auto !important; margin: 0px !important; min-height: 0px !important; min-width: 0px !important; padding: 0px !important; text-transform: uppercase !important; text-decoration: underline !important; vertical-align: baseline !important; width: auto !important; background: transparent !important;">订酒店<img src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/arrow-10x10.png" style="border: none !important; display: inline-block !important; text-indent: 0px !important; float: none !important; font-weight: bold !important; height: 10px !important; margin: 0px 0px 0px 3px !important; min-height: 0px !important; min-width: 0px !important; padding: 0px !important; text-transform: uppercase !important; text-decoration: underline !important; vertical-align: super !important; width: 10px !important; background: transparent !important;"></a>，团购餐食……出游的任何细节都可以通过网络轻松搞定！难道我们真的可以“抛弃”传统旅行社了么？</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;其实不然，中国的传统旅行社已经过30多年的发展，如今已趋向成熟，并成为我国经济发展的支柱性产业之一。它的优势主要包括以下三方面。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;1.市场资源的掌控</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社能够为消费者带来更多实实在在的优惠。它是旅游产业链中承上启下的重要环节,与产业链上游的交通渠道和下游的地接社、旅游目的地酒店等供应商都建立了良好的合作关系,借助这些关系,旅行社往往能够在机票价格和酒店价格等方面获得价格的优势。此外,旅行社还在线下销售渠道方面具有更大的竞争优势。我国一线城市的大中型旅行社通常在本地都铺设了完善的销售网络,与客户面对面沟通甚至上门服务，提前解决旅行过程中可能出现的各种问题，能够为本地客户提供更好的服务。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;2.品牌力量</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社与新兴的挑战对手相比，在其市场范围内拥有更高的品牌认知度，通过前几十年发展积累下来的良好口碑和资源为传统旅行社在市场竞争中奠定了坚实的品牌信任度，树立了信赖的品牌形象。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;人才优势</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社的旅游人才资源较在线旅游运营商更为雄厚,而旅游产品的关键还是人,包括线路设计、操作、销售等方面的人才是传统旅行社在市场竞争中最重要的资本之一。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社的竞争劣势</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;与新兴的在线旅游运营商相比,传统旅行社的竞争劣势也很明显。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;1.运营成本的上涨：</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;旅行社目前仍然以传统的门店销售为主要销售渠道,门店人员数量必定增加,而人力成本和门店租金成本会随着经济的发展不断上涨。这就导致了旅行社运营成本的不断增加,挤压了旅行社的盈利空间。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;2.经营模式的僵化：</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社办公地点固定，办公程序和经营模式僵硬，在讲究速度与变革的现代社会，一成不变的业务操作模式使其流失大量年轻人的旅游消费市场。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;3.宣传效果不理想：</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;因为传统旅行社的作业模式僵化,旅游产品的宣传与介绍多基于传统模式。较少利用互联网等信息系统来辅助业务的宣传,产品宣传投放率较在线旅游运营商要低，进而导致收客情况不理想。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社的转型之路</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——坚持与改变</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社的转型之路</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——坚持与改变&nbsp;</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;旅游市场的发展离不开传统旅行社，传统旅行社多年来的市场价值与地位举足轻重。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——新时代下的改变</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;在如今这个资源共享的信息时代，传统旅行社首先要和互联网接轨。运用智能优化的应用软件，方便快捷的为消费者提供最及时的旅游信息，更好地满足消费者需要。但在互联网营销上，须做到网上信息与实际的旅游产品保持高度一致。线下服务有专人跟进，服务及时，准确。</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——传统资源的坚持</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;传统旅行社在市场中成功转型需要充分利用前几十年所积累的资源和经验，通过与全国各地旅行社和地接代理商的合作，使服务延伸到全世界各地，让消费者感受到跨地域的贴心服务。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;罗伟&nbsp;</p><p></p><!--/enpcontent--><input type="checkbox" value="0" name="titlecheckbox" sourceid="&lt;Source&gt;SourcePh&lt;/Source&gt;" style="display:none">
+				  </div>
+				</div>
+				<div class="nextlink">
+					<a class="preart" href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134053.htm">下一篇 <img width="5" height="8" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/r4.gif"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div style="WIDTH:1000px; HEIGHT: 330px;margin:0 auto;background: none repeat scroll 0 0 #F7F7F7;padding-bottom:10px;">
+<iframe style="WIDTH:1000px; HEIGHT: 330px;" marginheight="0" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/878.html" frameborder="0" allowtransparency="" marginwidth="0" scrolling="no"></iframe>
+</div>
+<div class="part02">
+<span>南京日报社主办</span><span>南京日报总编辑：丁辉宇</span><span>国内统一刊号：CN32-0030</span><span><a target="_blank" href="http://www.njdaily.cn/2012/0911/227616.shtml" style="color:#ffffff;">南京日报广告刊例表</a></span><span>南京日报信息热线：4008885998</span><span>南报网新闻热线：025-84686110</span>
+</div>
+<div class="footer">
+	<p><a target="_blank" href="http://www.njdaily.cn/2011/0814/11860.shtml">南报网简介</a> | <a target="_blank" href="http://www.njdaily.cn/2011/0822/14352.shtml">About Us</a> | <a target="_blank" href="http://www.njdaily.cn/2011/0816/12606.shtml">广告服务</a> | <a href="http://www.njdaily.cn/2012/0131/79455.shtml" target="_blank">广告刊例</a> | <a target="_blank" href="http://www.njdaily.cn/2011/0814/11861.shtml">联系我们</a> | <a target="_blank" href="http://www.njdaily.cn/2011/0814/11863.shtml">招聘信息</a> | <a target="_blank" href="http://www.njdaily.cn/2011/0814/11866.shtml">版权声明</a> | <a target="_blank" href="http://bbs.njdaily.cn/register.php">会员注册</a> | <a target="_blank" href="http://mail.njdaily.cn/">内部邮箱</a></p>
+	<p>Copyright 2014 njdaily.cn, all rights reserved 南京日报网 版权所有</p>
+	<p>苏ICP备11047051号 苏新网备2012056号 <a target="_blank" href="http://net.china.com.cn/">违法和不良信息举报中心</a></p>
+</div>
+<div style="display:none"><a href="http://njrb.njdaily.cn/njrb/paperindex.htm" id="paperName">
+         南京日报
+         </a></div>
+<!-- -------------------------版面导航-------------->
+<div id="bmdh" onmouseover="document.getElementById(&#39;bmdh&#39;).style.display = &#39;block&#39;;" onmouseout="document.getElementById(&#39;bmdh&#39;).style.display = &#39;none&#39;;" style="display:none; position:absolute; left:50%; margin-left:62px; top:160px; filter:alpha(opacity=90);">
+<ul>
+<li>
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_1.htm" id="pageLink">第F01版：封面</a>
+</li>
+<li style="background:#fcfcfc;">
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_2.htm" id="pageLink">第F02版：评论·资讯</a>
+</li>
+<li>
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_3.htm" id="pageLink">第A01版：要闻</a>
+</li>
+<li style="background:#fcfcfc;">
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_4.htm" id="pageLink">第A02版：要闻</a>
+</li>
+<li>
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_5.htm" id="pageLink">第A03版：经济</a>
+</li>
+<li style="background:#fcfcfc;">
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_6.htm" id="pageLink">第A04版：民生</a>
+</li>
+<li>
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_7.htm" id="pageLink">第A05版：社会·社区</a>
+</li>
+<li style="background:#fcfcfc;">
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_8.htm" id="pageLink">第A06版：第1旅游</a>
+</li>
+<li>
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_9.htm" id="pageLink">第A07版：南京税务</a>
+</li>
+<li style="background:#fcfcfc;">
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_10.htm" id="pageLink">第A08版：国内</a>
+</li>
+<li>
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_11.htm" id="pageLink">第A09版：国内国际</a>
+</li>
+<li style="background:#fcfcfc;">
+<a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/node_12.htm" id="pageLink">第A10版：文体</a>
+</li>
+</ul>
+</div>
+<!-------bmdh版面导航END------>
+<!-- -------------------------标题导航-------------->
+<div id="btdh" onmouseover="document.getElementById(&#39;btdh&#39;).style.display = &#39;block&#39;;" onmouseout="document.getElementById(&#39;btdh&#39;).style.display = &#39;none&#39;;" style="display:none; position:absolute; left:50%; margin-left:300px; top:125px; filter:alpha(opacity=90); background-color:#FFFFFF">
+<ul id="artPList1">
+  
+  <li><a href="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊.html">传统旅行社,让我们在互联网时代遇见更好的你</a></li>
+  <li><a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134053.htm">旅游百事通 “掌旅通”：让旅游跨上移动定制新台阶</a></li>
+  <li><a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134055.htm">蟹行天下，最是中国好味道，特价限量抢咯！</a></li>
+  <li><a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134056.htm">持续万圣狂欢——  金山湖万圣节上演搞鬼嘉年华</a></li>
+  <li><a href="http://njrb.njdaily.cn/njrb/html/2014-11/04/content_134058.htm">万达旅业联姻南京旅行社  奠定传统旅行社优势</a></li>
+  
+  </ul>
+</div>
+<!-- -------------------------标题导航 END --------------><script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7f32aed534f2da344768184078540b91' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/h.js" type="text/javascript"></script>
+
+
+
+
+<!--mpproperty <founder-date>
+2014-11-04
+</founder-date>
+<founder-author>
+
+</founder-author>
+<founder-title>传统旅行社,让我们在互联网时代遇见更好的你
+</founder-title>
+<founder-nodename></founder-nodename>
+<founder-keyword>
+
+</founder-keyword><founder-ChannelID>
+1
+</founder-ChannelID><founder-imp>0</founder-imp>
+<founder-subtitle></founder-subtitle>
+<founder-type>1</founder-type>
+<founder-introtitle></founder-introtitle>
+<founder-pagepicurl>../../../images/2014-11/04/A06/20141104A06_brief.jpg</founder-pagepicurl>
+<founder-pagenum>A06</founder-pagenum>
+<founder-papername>南京日报</founder-papername>
+<founder-nodeid>8</founder-nodeid> /mpproperty-->
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><iframe src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/userData.html" style="position: absolute; top: -100px; left: -100px; z-index: -10; border: none; visibility: hidden; width: 1px; height: 1px;"></iframe><iframe src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/register_server_layer.html" style="position: absolute; width: 1px; height: 1px; left: -100px; top: -100px; visibility: hidden;"></iframe><iframe style="display: none; visibility: hidden;"></iframe><iframe style="display: none; visibility: hidden;"></iframe><sfmsg id="sfMsgId" data="{&quot;imageCount&quot;:0,&quot;ip&quot;:&quot;1.1.1.1&quot;}"></sfmsg><iframe style="position:absolute; width:0; height:0; left:-100px; top:-100px;" src="./传统旅行社,让我们在互联网时代遇见更好的你_南京日报社数字报刊_files/server_layer.html"></iframe></body></html>

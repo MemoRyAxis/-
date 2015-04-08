@@ -1,0 +1,30 @@
+﻿.jScrollPaneContainer{position:relative;overflow:hidden;z-index:1}
+.jScrollPaneTrack{position:absolute;cursor:pointer;right:0;top:0;height:100%;background:#fff}
+.jScrollPaneDrag{position:absolute; background:url(art_12.gif) repeat-y; cursor:pointer;overflow:hidden}
+.jScrollPaneDragTop{position:absolute;top:0;left:0; height:4px;  background:url(art_10.gif) no-repeat 0 0;overflow:hidden;}
+.jScrollPaneDragBottom{position:absolute;bottom:0;left:0; height:3px;  background:url(art_11.gif) no-repeat 0 0;overflow:hidden;}
+a.jScrollArrowUp{display:block;position:absolute;z-index:1;top:0;right:0;text-indent:-2000px;overflow:hidden;height:9px}
+a.jScrollArrowUp:hover{}
+a.jScrollArrowDown{display:block;position:absolute;z-index:1;bottom:0;right:0;text-indent:-2000px;overflow:hidden;height:9px}
+a.jScrollArrowDown:hover{}a.jScrollActiveArrowButton,a.jScrollActiveArrowButton:hover{}
+
+
+#calendarBox table,td{ border-collapse:collapse;}
+#calendarBox td{ border:1px solid #fff;}
+#calendarBox img{ margin:0 3px; cursor:pointer;}
+#calendarBox a.paperdate{ color:#000;}
+#calendarBox a.blankdate{ color:#aeacac; text-decoration:none; cursor:default}
+#calendarBox a.todaycolor{ display:block; width:100%; height:22px; line-height:22px; color:#000; background:url(cal_b1.jpg) no-repeat center;}
+select.selsy,select.selsm{position:absolute; top:85px; display:none; z-index:101;}
+
+.redlayer{ position:absolute; left:5px; top:5px; width:60px;  height:60px; border:4px solid #ff3300; cursor:pointer;}
+.redlayer b{ position:relative; top:0px; left:-9px; display:block; width:5px; height:68px; _height:50px;background:url(epaper_bg10.jpg) no-repeat center;}
+.redlayer a{ position:absolute; display:block; top:45px; width:60px; height:17px;  background:#fff; filter:alpha(opacity:70); opacity:0.7; text-align:center; color:#2e2d2d;;}
+.redlayer a:hover,.redlayer a:active{ text-decoration:none}
+#hotMapArea{position:absolute; display:none; border:2px solid #aa0000;}
+#hotMapArea div{background:#aa0000; filter:alpha(opacity:20); opacity:0.2; width:100%; height:100%; cursor:pointer;}
+#titlePanel{position:absolute; top:20px; left:100px;width:325px;}
+#titlePanel p{ padding-left:20px;}
+#titlePanel .hd{ padding-top:2px; height:13px; background:url(epaper_bg23.gif) no-repeat left top; overflow-y:hidden; font-size:12px; line-height:13px; color:#fafcff;}
+#titlePanel .title{ background:#fff9d8; padding-top:9px; padding-bottom:5px; font:600 16px/22px "宋体"; color:#1e1e1e}
+#titlePanel .btm{ height:5px; font-size:0; background:url(epaper_bg24.gif) no-repeat  left bottom;}

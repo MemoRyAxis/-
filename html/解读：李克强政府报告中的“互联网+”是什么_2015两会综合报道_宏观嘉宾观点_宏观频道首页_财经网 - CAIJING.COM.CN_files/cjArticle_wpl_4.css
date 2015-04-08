@@ -1,0 +1,288 @@
+/* 新修改正文页 */
+.art_wbShare{padding-top:0px;border-top:none;}
+.art_change{height:29px;background:url(http://img.caijing.com.cn/images/bg_minitab.gif) repeat-x bottom;padding-left:5px;margin-bottom:10px;}
+.art_change a span{font-weight:bold;color:#0095ef;}
+.art_change ul li{ display:block; float:left;margin-left:6px;height:25px;line-height:25px; padding:1px;border:1px #c7c7c7 solid; overflow:hidden;zoom:1;}
+.art_change ul li.artChange_this{ border-bottom:1px solid #fff;}
+.art_change ul li a{display:block; float:left;height:25px;line-height:25px;color:#004080;background:url(http://img.caijing.com.cn/images/bg_art_change.gif) repeat-x 0 0;border:0;padding:0 15px;margin:0; overflow:hidden;zoom:1;}
+.art_change ul li.artChange_this a{height:25px;background:url(http://img.caijing.com.cn/images/bg_art_change_on.gif) repeat-x 0 0;color:#004080; font-weight:bold;}
+.art_change .artChange_this{height:25px;}
+
+.wpl_bjtj{border:1px #d6d6d6 solid;margin-top:20px;padding:10px 15px;}
+.wpl_ptit{height:20px;line-height:20px;}
+.wpl_ptit h3{float:left;font-size:14px;color:#404040;}
+.wpl_ptit a{float:right;font-size:12px;color:#838383;}
+
+.wpl_cont{overflow:hidden;zoom:1;padding-top:5px;}
+.wplCont_lt{float:left;width:280px;}
+.wplCont_lt li{line-height:26px;color:#3f3f3f;float:left;font-size:14px;width:280px;overflow:hidden;height:26px;}
+.wplCont_lt li a{color:#3f3f3f;}
+.wplCont_rt{float:right;width:320px;}
+.wplCont_rt li{float:left;width:135px;overflow:hidden;padding-left:25px;}
+.wplCont_rt li img{width:135px;height:90px;}
+.wplCont_rt li .wplCont_rtwz{height:25px;line-height:25px;background:#2b2b2b;color:#ffffff;display:block;padding:0 3px;overflow:hidden;}
+
+.bannerL{padding:10px 0 5px;overflow:hidden;zoom:1;}
+.bannerL .bottonLeft{ float:left;width:20px; background:url(http://img.caijing.com.cn/images/wpl_ltrt.gif) no-repeat 0 0;}
+.bannerL .bottonLeft span{ display:block; width:20px; height:93px; cursor:pointer;}
+.bannerL ul li{ width:139px; height:130px; padding-right:1px;overflow:hidden; float:left;display:inline; background:#fff; line-height:12px;}
+.bannerL ul li img{padding-bottom:5px;}
+.bannerL ul .wplJctp_wz{padding-top:5px;display:block; padding:0 5px;color:#3a3a3a; line-height:16px;}
+.bannerL ul li a:hover{ color:#232852;}
+.bannerL ul li img{display:block; width:139px; height:93px;}
+.bannerL .bottonRight{float:left;width:20px; background:url(http://img.caijing.com.cn/images/wpl_ltrt.gif) no-repeat 0 bottom;}
+.bannerL .bottonRight span{ display:block; width:20px; height:93px;cursor:pointer;}
+.bannerL .contrainer { width:559px; height:130px; overflow:hidden;float:left;}
+.bannerL .scroll_conB { width:5000px; height:130px;}
+
+.public_h3{height:25px;line-height:25px;color:#5a5a5a;border-top:3px #737e82 solid;}
+.public_h3 h3{float:left;font-size:14px;padding-left:5px;}
+.public_h3 a{float:right;color:#878787;padding-right:5px;}
+.public_h3bg{background:url(http://ws3.cdn.caijing.com.cn/2012/0316/caijing_bg.gif) 0 -501px repeat-x;}
+
+.public_h3 h3 a{color:#818181;font-size:12px;font-weight:normal;}
+.public_h3 h3 a span{color:#068ef2;font-size:12px;font-weight:bold;}
+
+/*评论框*/
+.cjArt_comm{padding-top:15px;}
+.cjArt_comm .public_h3{border-bottom:none;}
+.cjArt_comm .public_h3 h3 strong{float:left;}
+.cjArt_comm .public_h3 h3 a{float:left;}
+.mini_com{position:relative; z-index:13; border:1px solid #d9d9d9; background:#f0f1f2; padding:5px 17px 7px;zoom:1;}
+.mini_com_l{float:left; width:75px; margin:4px 0 0; text-align:center; overflow:hidden;}
+.mini_com_l dd{line-height:22px; color:#808080;}
+.mini_com_l dd a{color:#808080;}
+.mini_com_r{ float:right; width:510px;}
+.mini_rt{line-height:18px;height:18px;margin-bottom:3px;overflow:hidden;position:relative;}
+.mini_rt_top{float:left;width:336px;}
+.mini_rt_top a{color:#004081; text-decoration:none;}
+.mini_rt .miniplaza{ float:right; color:#808080;}
+.mini_com_r textarea{width:490px; height:95px;border:1px solid #dadada; padding:5px 9px;resize:none; line-height:18px; font-size:12px; color:#808080; background:#fff; overflow:auto;}
+.mini_rb{ height:24px;padding:6px 0 0;}
+.mini_rb input{vertical-align:middle;}
+.mini_rb .menu_bq ,.comm-floor-replay .faceBtn .menu_bq {float:left; height: 24px; line-height:24px; position: relative; z-index: 13;}
+.mini_rb .translip{ float:left; height:16px; padding:4px 0 4px 50px; color:#7c7d7f;}
+.mini_rb .translip input{vertical-align:baseline;width:13px;height:13px; margin-right:3px;}
+.mini_rb .translip span{float:left;line-height:20px;}
+.translip .tran_list{float:left; margin-right:13px;}
+.translip .tran_list label.sina,.translip .tran_list label.tencent,.translip .tran_list label.community{display:inline-block;background: url("http://img.caijing.com.cn/images/global.png") no-repeat -194px -870px; width:16px; height:16px;text-indent:9999em;overflow:hidden;}
+.translip .tran_list label.sina{background-position:-228px -870px;}
+.translip .tran_list label.tencent{background-position:-254px -870px;}
+.translip .tran_list label.community{background-position:-194px -870px;width:24px;}
+.mini_rb .anonymous{ float:right; padding:4px 0 0;}
+.anonymous input{ float:left; margin:2px 5px 0 0;_margin-top:0;}
+.anonymous span{ float:left; line-height:20px}
+.button_issue{display:none;float:right;margin-left:20px;width:78px;height:24px;overflow:hidden;background: url(http://img.caijing.com.cn/images/button_com.gif) no-repeat 0 0; cursor:pointer;}
+.button_issue2{float:right;margin:3px 0 0 20px;width:41px;height:21px;background: url(http://img.caijing.com.cn/images/button_common2.gif) no-repeat 0 0; cursor:pointer;}
+.button_hover{float:right;margin-left:20px;width:78px;height:24px;overflow:hidden;background: url(http://img.caijing.com.cn/images/button_com.gif) no-repeat 0 -24px; cursor:pointer;}
+
+.mini_number{position:absolute;top:0;right:0;width:180px;text-align:right;height:18px;line-height:18px;background:#F0F1F2;display:none;padding-right:3px;}
+.mini_number em{font-size:16px;font-weight:bold;padding:0 5px;}
+.button_issue2_num{float:right;line-height:25px;color:#878787;}
+
+/*左侧评论列表*/
+#articlePl var,#articlePl em{font-style:normal;}
+.pinglun{width:645px;display:block;padding:14px 0;border-bottom:1px dotted #d9d9d9;zoom:1;}
+.userleft{ float:left;width:50px; text-align:center;overflow:hidden;padding-left:10px;}
+.userleft dt,.userleft dd{width:50px; display:block;}
+.userleft dt{margin:5px 0 0;}
+.addguanzhu{margin-top:7px;}
+.coomm_r{ float:right; width:570px;}
+.coomm_r h4{height: 24px;line-height:24px; font-weight:normal;font-size:12px;}
+.coomm_r h4 a{color:#0f3d79;float:left;}
+.coomm_r p {color: #595959; font: 12px/22px "宋体"; padding: 3px 0 0; word-wrap: break-word;}
+.coomm_r h5 { color:#878787; padding: 3px 0 0;height:22px;line-height:22px; text-align: right; font-size:12px; font-weight:normal; font-style:normal;overflow:hidden;zoom:1;}
+.coomm_r h5 span { float: left;}
+.coomm_r h5 span a{color:#0f3d79;}
+.coomm_r h5 span em{color:#0f3d79;}
+.coomm_r h5 span.feed-set { float: right;padding-right:10px;color:#0f3d79;}
+.coomm_r .comm-floor-replay {padding: 10px 10px 0px;margin-top:10px;border:1px #d9d9d9 solid;background:#F5F5F5;}
+.comm-floor-replay{width:548px; position:relative;}
+.comm-floor-replay .reCom .comBord{ color: #333333;height:60px;line-height: 18px;font-size:12px;overflow: auto;padding: 5px;width: 98%; border:1px solid #BEBEBE;background:#fff;resize:vertical!important;}
+.comm-floor-replay .corner {background:url("http://t.caijing.com.cn/timage/global.png") no-repeat -126px -1116px;font-size: 0;height:8px;overflow: hidden; position: absolute;right:28px;top: -8px; width: 15px;}
+.comm-floor-replay .faceBtn { margin: 5px 0 0;}
+.comm-floor-wrapper {clear: both; margin: 10px 0 0;}
+.comm-floor-wrapper .floor-bord { background:#fafafa; border: 1px solid #d9d9d9; padding: 3px;}
+.comm-floor-wrapper p { margin: 0 7px;}
+.comm-floor-wrapper h5 {padding: 2px 7px 0;}
+
+.userleft dd{position:relative;display:none;}
+.userleft dd p{position:absolute;top:-18px;left:0;height:18px;width:50px;background:#000000;filter:Alpha(Opacity=60);opacity:0.6;}
+.userleft dd a{position:absolute;top:-18px;left:0;height:18px;width:50px;color:#FFFFFF;text-align:center;line-height:18px;}
+.userleft dd a:hover{text-decoration:none;}
+
+.comment_area_more{border-top:1px dotted #B8B8B8;padding:10px 0;text-align:center;display:none;}
+.comment_area_more a{color:#5C8AC7;font-size:14px;font-weight:bold;}
+
+/* 表情 */
+.menu_bq{position:relative;z-index:13;height:25px;margin:1px 0 0 1px;}
+.menu_bq a{ display:inline-block;padding:0 0 0 20px; color:#005ea6;background:url("http://img.caijing.com.cn/images/global3.png") no-repeat scroll -27px -69px transparent;}
+.menu_bq a:hover{background-position:-27px -5px; color:#11a7ec;}
+
+b.menu_bqb_c{font-weight:500;font-size:12px;cursor:pointer;}
+.menu_bqb_cb{background:url("/images/vote_r2.gif") repeat-x scroll 0 0 transparent;border-right:1px solid #CCCCCC;height:27px;line-height:27px;overflow:hidden;padding-left:10px;width:424px;}
+b.menu_bqb_c a{font-weight:500;cursor:pointer;font-size:14px;color:#618095;}
+.showface{width:435px;padding:0;overflow:hidden;background:white;border:1px solid #BFBFBF;*top:20px;position:absolute;z-index:200;left:0px;border-right:none;border-bottom:none;border-image:initial;display:none;}
+.signInfo .showface{*top:20px;}
+.menu_bqb_cb{width:424px;padding-left:10px;height:27px;background:url("http://img.caijing.com.cn/images/global.png") repeat-x scroll 0px -773px transparent;border-right:1px solid #CCC;overflow:hidden;line-height:27px;}
+.menu_vs{position:relative;z-index:12;height:25px;margin:1px 0 0 1px;}
+.menu_vs a{ display:inline-block;padding:0 0 0 20px; color:#005ea6;background:url("http://img.caijing.com.cn/images/global3.png") no-repeat scroll -384px -71px transparent;}
+.menu_vs a:hover{background-position:-384px -7px; color:#11a7ec;}
+.menu_vs .vcontent-add a{background:none;padding:0;}
+.menu_vs b.menu_vsb_c{font-weight:500;cursor:pointer;font-size:12px;}
+.menu_vsb{background:#e4e4e4;padding:4px;position:absolute;left:0;top:20px;z-index:11;_left:-20px;border-image:initial;}
+.menu_vs sub.menu_vsb_c1{cursor:pointer;position:absolute;top:8px;right:17px;width:11px;height:11px;background:url("http://img.caijing.com.cn/images/global.png") no-repeat scroll -197px -26px transparent;}
+.menu_vsbox{display:block;width:397px;line-height:20px;color:#a3a3a3;overflow:hidden;background-color:#fff;}
+.menu_vsbox p.stitle{background-color:#f3f3f3;padding-left:17px;height:24px;line-height:24px;margin:0;}
+.menu_vsbox p.stitle b{color:#858585;display:inline-block;font-weight:normal;height:24px;line-height:24px;}
+.menu_vsbox .vcontent{padding:10px 17px 15px;}
+.faces_list li{border:1px solid #E8E8E8;cursor:pointer;float:left;height:22px;margin:-1px 0 0 -1px;overflow:hidden;padding:4px 2px;text-align:center;width:26px;}
+
+.menu_bqb_c1{background:url("http://t.caijing.com.cn/images/imgdel.gif") no-repeat scroll 0 0 transparent;float:right;height:15px;margin:7px 5px 0 0;width:15px;}
+.menu_bq a.sina_face,.menu_bq a.topic_face{padding:0; color:#6C6C6C;cursor:pointer;display:inline-block;font-weight:normal;height:25px;line-height:25px;margin-top:2px;text-align:center;width:78px;}
+.menu_bq a.sina_face:hover,.menu_bq a.topic_face:hover{color:#5A7FB2;}
+.menu_bq a.sina_face,.menu_bq a.topic_face{background:none;}
+.menu_bq a.bq_break{background:url("http://t.caijing.com.cn/images/vote_r1.gif") no-repeat scroll 0 0 transparent;}
+
+/* 网友热评 */
+.ar_wyrp{padding-top:15px;}
+.ar_wyrp .com_change{position:relative; height:29px;border-bottom:1px solid #a6a6a6;}
+.ar_wyrp .com_change_more{position:absolute; right:5px; top:0;color:#878787;line-height:29px;}
+.ar_wyrp .changetabs { position:absolute; left:9px; top:0;}
+.ar_wyrp .changetabs li{position:relative; z-index:1;float:left; height:27px; line-height:26px;border-width:2px 1px 0 1px;border-color:#a6a6a6; border-style:solid; background:#f2f2f2;margin-left:-1px;}
+.ar_wyrp .changetabs li div{display:block;padding:0 8px; color:#404040; text-decoration:none;cursor:pointer;}
+.ar_wyrp .changetabs li.on div{ color:#004081; text-decoration:none;}
+.ar_wyrp .changetabs li.on{ height:28px; z-index:2;color:#004081; border-color:#486d92 #486d92 #fff #486d92; border-style:solid; border-width:2px 1px 0 1px; background:#fff; font-weight:bold;}
+.pinglun{width:645px;padding:15px 0;}
+.clear{clear:both;height:0;overflow:hidden;}
+.cjwpl_bot{border-top:1px #ffcab8 solid;border-bottom:1px #ffcab8 solid;height:28px;line-height:28px;text-align:center;background:#fff6f1;}
+.cjwpl_bot a{color:#ff6635;}
+
+.show_message_area{overflow:hidden;zoom:1;}
+.message_area{z-index:999999;display:inline-block;color:#333333;padding:4px;background:url(http://img.caijing.com.cn/images/pngbg_layer.png) 0 0 no-repeat;_background:none;_padding:0;_border:4px #cccccc solid;}
+.message_area{left:50%;top: 50%;margin-left:-70px!important;margin-top:-15px!important;margin-top:0px;position:fixed;_position: absolute;_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ?  documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);}
+.message_fbcg,.message_fbz,.message_sr{width:140px;height:30px;}
+.message_chf{width:255px;height:55px;margin-left:-127px!important;margin-top:-27px!important;}
+.message_area p{background:#ffffff;height:30px;line-height:30px;width:120px;padding-left:20px;text-align:center;font-size:13px;color:##787878;}
+.message_fbcg p{background:#ffffff url(http://img.caijing.com.cn/images/message_cg.gif) 28px center no-repeat;}
+.message_fbz p{background:#ffffff url(http://t.caijing.com.cn/images/loading.gif) 30px center no-repeat;}
+.message_sr p{width:140px;padding-left:0px;}
+.message_chf p{width:255px;height:55px;padding-left:0;overflow:hidden;}
+.message_chf .affirm{text-align:center;display:inline-block;width:43px;height:18px;color:#FFFFFF;background-color:#9ed265;border:1px solid #8fc850;border-radius:2px;line-height:18px;cursor:pointer;}
+.message_zansb{width:230px;height:30px;}
+.message_zansb p{width:230px;height:30px;padding-left:0;}
+.article h2{text-align:left;padding:10px 10px 0;}
+
+/**/
+.mini_rt_top{}
+.mini_rt_top em{color:#004081;padding:0 3px;}
+.mini_rt_top span{color:#7f8082;}
+.hz_login{float:right;}
+.hz_login span{float:left;color:#3e3e3e;}
+.hz_login input{float:left;width:16px;height:16px;margin:1px 2px 0 8px;}
+.hz_login .comm_sohu{background:url(http://img.caijing.com.cn/images/log_ico.gif) 0 0 no-repeat;margin:1px 2px 0;}
+.comm_163{background:url(http://img.caijing.com.cn/images/log_ico.gif) 0 -16px no-repeat;}
+.comm_qq{background:url(http://img.caijing.com.cn/images/log_ico.gif) 0 -32px no-repeat;}
+.comm_sina{background:url(http://img.caijing.com.cn/images/log_ico.gif) 0 -48px no-repeat;}
+
+/* 列表 */
+.second_reply{zoom:1;padding:0;}
+.second_user{width:35px;float:left;}
+.second_text{width:498px;padding-left:10px;float:left;}
+.second_pllist{padding-top:8px;}
+.second_pllist dl{zoom:1;padding:10px 0;border-top:1px #b8b8b8 dotted;}
+.second_pllist dt{width:35px;float:left;}
+.second_pllist dd{width:498px;padding-left:10px;float:left;}
+.name-tip{color:#004081;}
+.comingFrom_cont{padding:5px 0;line-height:20px;overflow:hidden;zoom:1;}
+.comingFrom_laiy{float:left;color:#878787;}
+.comingFrom_date{float:right;color:#878787;}
+.comingFrom_shuifu{float:right;color:#004081;margin-left:10px;}
+.translip{position:relative;}
+.tb_prompt{position:absolute;top:-24px;left:45px;background:#FFFFFF;height:22px;line-height:22px;width:135px;border:1px #c0c0c0 solid;color:#4d4d4d;text-align:center;}
+.translip .tb_prompt span{float:none;cursor:pointer;}
+
+/* 绑定弹出层 */
+.binding{width:225px;height:145px;background:#ffffff;color:#333333;z-index:999999;border:1px #919699 solid;border-top:3px #737e82 solid;}
+.binding{left:50%;top: 50%;margin-left:-115px!important;margin-top:-74px!important;margin-top:0px;position:fixed;_position: absolute;_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ?  documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);}
+.binding_tit{border-bottom:1px #737e82 solid;background:url(http://img.caijing.com.cn/images/binding_bg.gif) 0 0 repeat-x;height:27px;line-height:27px;padding:0 5px 0 15px;}
+.binding_tit h4{float:left;color:#4d4d4d;font-size:14px;}
+.binding_tit span{float:right;padding:0 5px;font-size:14px;font-weight:bold;cursor:pointer;}
+.binding_cont{padding:25px 0;text-align:center;}
+.binding_cont p{line-height:20px;text-align:center;color:#4d4d4d;padding:0 10px 10px;}
+.binding_cont a{display:block;width:107px;height:24px;margin-left:59px;}
+.binding_qq {background:url(http://img.caijing.com.cn/images/binding_qq.gif) 0 0 no-repeat;}
+.binding_sina {background:url(http://img.caijing.com.cn/images/binding_sina.gif) 0 0 no-repeat;}
+
+/*.pinglun_tit{float:left;color:#bebebe;}
+.pinglun_tit div{display:inline;padding:0 3px 0 5px;color:#404040;cursor:pointer;}
+.pinglun_tit .pinglun_show{color:#003f82;font-weight:bold;}*/
+.pinglun_null{line-height:20px;padding:10px 0;text-align:center;color:#404040;}
+.pinglun_null a{color:#004181;}
+.pinglun_null a:link,.pinglun_null a:visited,.pinglun_null a:active,.pinglun_null a:hover{text-decoration:underline;}
+
+.plFrom{line-height:24px;padding-left:10px;float:left;height:24px;}
+.coomm_r .plFrom em{padding-left:20px;color:#999999;float:left;height:24px;font-style:normal;}
+.plFrom_qq{background:url(http://img.caijing.com.cn/images/icon_tencent.gif) 0 center no-repeat;}
+.plFrom_sina{background:url(http://img.caijing.com.cn/images/icon_sina.gif) 0 center no-repeat;}
+.trans_div{height:22px;float:left;background:url(http://img.caijing.com.cn/images/zhuanf_bg.gif) 3px 0 no-repeat;padding-left:10px;}
+.trans_div span{height:16px;border:1px #d5d5d5 solid;border-left:none;padding:2px 0;background:#e8e6e9;}
+.trans_div a{float:left;margin:0 4px;}
+.trans_sina{height:16px;width:16px;background: url("http://img.caijing.com.cn/images/global.png") no-repeat -228px -870px;}
+.trans_qq{height:16px;width:16px;background: url("http://img.caijing.com.cn/images/global.png") no-repeat -254px -870px;}
+.binding_cont .judgeLog_but{float:left;width:74px;height:24px;background:url(http://img.caijing.com.cn/images/button_log.gif) 0 0 no-repeat;margin:0 20px 0 28px;display:inline;}
+.binding_cont .judgeLog_close{float:left;width:74px;height:24px;background:url(http://img.caijing.com.cn/images/button_log.gif) 0 -24px no-repeat;cursor:pointer;}
+
+.cjArt_comm .public_h3{height:35px;line-height:35px;}
+.cjArt_comm .public_h3 h3{font-size:16px;}
+.cjArt_comm_trt{float:right;color:#878787;padding-right:5px;}
+.cjArt_comm_trt a{float:none;}
+.cjArt_comm_trt span{font-size:18px;font-weight:bold;color:#093a65;}
+
+/* 弹出层 */
+html,body{height:100%}
+.overDiv{
+ background-color: #000;
+ width: 100%;
+ height: 100%;
+ left:0;
+ top:0;/*FF IE7*/
+ filter:alpha(opacity=40);/*IE*/
+ opacity:0.4;/*FF*/
+ z-index:1;
+ position:fixed!important;/*FF IE7*/
+ position:absolute;/*IE6*/
+ _top:expression(eval(document.compatMode &&
+ document.compatMode=='CSS1Compat') ?
+ documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+ z-index:99999;
+}
+.wplPopup{width:486px;height:216px;background:#ffffff;color:#333333;z-index:999999;border:2px #2b4486 solid;overflow:hidden;}
+.wplPopup{left:50%;top: 50%;margin-left:-245px!important;margin-top:-110px!important;margin-top:0px;position:fixed;_position: absolute;_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ?  documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);}
+.wplPopup_lt{float:left;width:250px;padding:32px 0 0 35px;background:url(http://img.caijing.com.cn/images/wplP_or.gif) right 36px no-repeat;}
+.wplPopup_lt h2,.wplPopup_rt h2{font-size:16px;line-height:25px;font-family:"微软雅黑";color:#2c4486;height:25px;}
+.wplPopup_lt h2 p{width:205px;height:20px;border:1px #eae9d6 solid;text-align:center;font-family:"宋体";background:#fffeed;line-height:20px;color:#d20000;font-size:12px;font-weight:normal;}
+.wplPopup_input{position:relative;padding-top:10px;}
+.wplPopup_input p{position:absolute;top:-25px;left:0;width:205px;height:20px;border:1px #eae9d6 solid;text-align:center;background:#fffeed;line-height:20px;color:#d20000;}
+.wplPopup_input input{width:205px;height:26px;border:1px #bfbfbf solid;color:#b3b3b3;font:12/26px;line-height:26px;margin-top:6px;}
+.wplPopup_bot{padding-top:15px;}
+.wplPopup_bot a{width:100px;height:26px;float:left;margin-right:7px;display:inline;text-align:center;line-height:26px;color:#ffffff;}
+.wplPopup_bot .wplP_zhuce{background:url(http://img.caijing.com.cn/images/wplP_butt.gif) 0 0 no-repeat;}
+.wplPopup_bot .wplP_denglu{background:url(http://img.caijing.com.cn/images/wplP_butt.gif) 0 -52px no-repeat;}
+.wplPopup_bot a.wplP_zhuce:hover{background:url(http://img.caijing.com.cn/images/wplP_butt.gif) 0 -26px no-repeat;}
+.wplPopup_bot a.wplP_denglu:hover{background:url(http://img.caijing.com.cn/images/wplP_butt.gif) 0 -78px no-repeat;}
+.wplPopup_rt{float:right;width:180px;}
+.wplP_close{height:21px;padding:3px 3px 0 0;}
+.wplP_close span{float:right;width:21px;height:21px;cursor:pointer;}
+.wplPopup_rt h2{padding-top:8px;}
+.wplPopup_rt ul{overflow:hidden;padding-top:15px;zoom:1;}
+.wplPopup_rt li{float:left;width:65px;height:65px;padding-right:15px;}
+.wplPopup_rt li img{width:63px;height:63px;float:left;border:1px #bfbfbf solid;}
+.wplPopup_rt p{line-height:18px;padding-top:15px;color:#808080;}
+.wplPopup_rt p a{color:#2c4486;cursor:pointer;}
+
+.cjart_share{margin-right:5px;}
+.cjSina_share{float:right;height:16px;width:16px;margin:5px 10px 0 0;display:inline;}
+.cjSina_share a{display:block;height:16px;width:16px;background:url("http://img.caijing.com.cn/images/share_sina.gif") no-repeat scroll 0 0 transparent;}
+.cjSina_share a:hover{text-decoration:none;}

@@ -1,0 +1,30 @@
+
+
+
+var m_hdt_pos_id='4215';
+var m_hdt_pos_str_id='4215';
+var m_hdt_ic5='0070062ddb562c992a7f320a0e869cb0';
+var m_hdt_rt_code='';
+
+
+
+	if(m_hdt_pos_id!=5265 && m_hdt_pos_id!=7114 && m_hdt_pos_id!=7115)
+	{
+		if (window.top==window)
+		{
+			document.write('<scr'+'ipt language="javascript" src="http://cast.ra.icast.cn/p2/?id='+m_hdt_pos_id+'&res='+screen.width+'x'+screen.height+'&be_retarget='+m_hdt_rt_code+'&turl=http%3A//adm.icast.cn/nortb/hdt-ifocus/request/%3Fid%3DPM130428'+m_hdt_pos_id+'%26be_retarget%3Dno20"></scr'+'ipt>'); 
+		}
+		else
+		{
+			if(typeof(track_pool)=="undefined")window.track_pool=[];
+			(track_pool[track_pool.length]=new Image()).src='http://track.ra.icast.cn/g/dot.gif?id=4215&r='+Math.random();
+		}
+	}
+	else
+	{
+		document.write('<scr'+'ipt language="javascript" src="http://cast.ra.icast.cn/p2/?id='+m_hdt_pos_id+'&res='+screen.width+'x'+screen.height+'&be_retarget='+m_hdt_rt_code+'&turl=http%3A//adm.icast.cn/nortb/hdt-ifocus/request/%3Fid%3DPM130428'+m_hdt_pos_id+'%26be_retarget%3Dno20"></scr'+'ipt>'); 
+	}
+
+	
+
+document.write('<scr'+'ipt language="javascript" src="http://track.ra.icast.cn/ifocus/red.js"></scr'+'ipt>');

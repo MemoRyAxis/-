@@ -1,0 +1,154 @@
+.main{padding:10px;}
+.article_lt{width:645px; margin:0; margin-top:20px;}
+.article_rt{margin-top:10px;}
+.article{ border-right:1px solid #e9eaee;}
+.article h2{ text-align:center; padding-top:10px;}
+.ar_source{padding:0 10px; border:none; margin-bottom:30px;}
+.summary{margin:0 10px; padding:5px 10px 5px 15px;}
+#the_content{padding-top:15px; zoom:1;}
+#the_content p{margin:0;margin-bottom:24px;padding:0 10px;}
+.ar_writer{ padding:0;float:left; padding-left:10px; width:600px; font-size:12px; color:#898989;}
+.ar_writer a{color:#0075a9;}
+.ar_keywords{float:left; padding-left:15px; font-size:12px; color:#898989;padding-top:10px;}
+.ar_keywords a{color:#0075a9; padding-left:10px;}
+.ar_about{padding:10px 10px 0 10px; border:none; zoom:1;}
+.ar_about_bt{ font-size:13px; color:#5a5a5a; font-weight:bold;}
+.ar_about ul{margin-top:10px;}
+.ar_about ul li{width:300px;overflow:hidden; float:left; padding-left: 8px; background:url(http://tx1.cdn.caijing.com.cn/2012-08-24/112080408.gif) 0 9px no-repeat;}
+.ar_about ul li a{color:#0075a9; width:280px; display:block;line-height:20px; height:20px; overflow:hidden;}
+.rmwz_bt{border-bottom: 1px dotted #343434;border-top: 3px solid #737E82;height: 25px;line-height: 25px;}
+.rmwz_bt h3{line-height:25px; font-size:14px; color:#000;}
+.rmwz_main{padding-top:20px;}
+.rmwz_nr{width:150px; padding-right:10px; float:left; overflow:hidden;}
+.rmwz_nr span a{ display:block; font-size:12px; color:#565656; line-height:20px; padding-top:5px;}
+.arbot_ad{padding:20px 0 20px 5px; width:635px;}
+.ar_wyrp2{padding-left:5px;}
+.cjart_share{margin-top:20px;}
+#bdshare .fx_btn{background: url('http://img.caijing.com.cn/tianji_share.jpg') 0 0 no-repeat;margin-top: 5px; overflow:hidden;margin-left: 5px; padding:0; width:16px; height:16px; padding-right:5px;}
+
+
+/* 社区热点 */
+.sqrd{width:643px; border:1px solid #b6d7e8; background:#f5f5f5; overflow:hidden;}
+.sqrd_h3{height: 25px;line-height: 25px; padding:0 10px;border-bottom:1px dotted #7a7a7a;}
+.sqrd_h3 h3 {float: left;font-size:14px;font-weight:bold; color:#000;}
+.sqrd_h3 a {color: #878787;float: right;font-size:12px;}
+.sqrd_up{padding-top:10px;}
+
+/* 激辩 */
+.sqrd_jb{width:300px; padding-left:10px; float:left;}
+.sqrd_jb_bt{ font-size:14px; color:#ff6600; padding-bottom:5px; display:block;}
+.sqrd_jb_main{border-bottom:1px solid #d2d2d2;}
+.sqrd_jb_main a{font-size:12px; color:#565656; font-weight:bold; display: block; padding-bottom:5px;}
+.sprd_zw{ padding-bottom:10px; width:220px; float:left;}
+.sprd_zw p{color:#313131;line-height: 24px;font-size:12px;}
+.sprd_zw .sprd_cjbl {background:url(jb_btn.gif) 0 0 no-repeat;color: #000000;height: 18px;padding: 26px 0 0 10px;width: 89px; font-size:12px; font-weight:normal; float:right;}
+.sqrd_jb_main .cjjb{display:block; float:right; margin-top:-15px; padding:0;}
+
+/* 人气用户 */
+.hot_user{width:312px;float:right;padding-right:6px;}
+.user_img{float:left; width:66px; padding:0 6px;}
+.user_img span a{display:block; text-align:center; color:#000; padding-top:10px;}
+
+/* 博文 */
+.sqrd_cent{padding-bottom:20px; width:625px; margin:0 auto;border-bottom:1px solid #d2d2d2;}
+.bw_lt{float:left;width:300px;}
+.bw_rt{float:right;}
+.bw_bt a{font-size:12px; color:#565656;font-weight:bold; display:block; padding-bottom:5px;}
+.bw_lt p{color:#313131;line-height: 24px;font-size:12px;}
+.bw_lt p a{color:#7a7a7a;}
+.bw_lt span{font-size:12px; color:#313131;}
+.bw_lt span a{ color:#318fb8; line-height:24px;}
+
+/* 图集 */
+.sqrd_down{padding-top:10px;}
+.sqrd_down .sqrd_jb_bt{ padding-left:10px;}
+.tj_main{padding:0 6px 10px 14px;}
+.tj_nr{float:left; padding-right:6px; position:relative; width:148px; height:151px;}
+.tj_nr span{ position:absolute; bottom:0; left:0; width:148px; height:20px; display:block;  text-align:center;}
+.tj_nr span a{display:block;color:#FFF; font-weight:bold; line-height:20px;}
+
+/* 要闻 */
+.art_yw{padding-top:20px; padding-bottom:10px; border-bottom:1px solid #dddddd;}
+.art_yw_h3{ line-height:30px; height:30px;border-top:3px solid #959ca2;}
+.art_yw_h3 h3{font-size:14px; color:#5a5a5a; float:left;}
+.art_yw_h3 a{float:right;color: #878787;}
+.art_gd{width:300px; height:108px; overflow:hidden;}
+.art_gd ul{text-align:left;}
+#gdxw2{text-align:left;}
+.art_gd ul li{ height:26px; line-height:26px; border-bottom:1px dotted #999999; width:300px; overflow:hidden;}
+.art_gd ul li a{font-size:12px; color:#414141;}
+.art_gd #gdxw2 li{ height:26px; line-height:26px; border-bottom:1px dotted #999999; width:300px; overflow:hidden;}
+.art_gd #gdxw2 li a{font-size:12px; color:#414141;}
+.art_yw_h3f{zoom:1;}
+.art_yw_h3f h3{ float:left;}
+.art_yw_h3f a{float:right;color: #878787;}
+.art_jctjs{padding-bottom:0;}
+.art_jctj{zoom:1;}
+.jctj_lt{width:143px; float:left; display:block; height:155px;}
+.jctj_bt{display:block; line-height:20px; color:#565656; padding:5px 0 10px 0;font-size:12px;height:34px; overflow:hidden;}
+.jctj_rt{float:right;display:block;}
+
+
+/* 编辑推荐 */
+.fir_bjtj{margin-top:15px;width:300px;overflow:hidden;zoom:1;}
+.bjtj_h3{border:1px #dedede solid;height:25px;font-size:14px;line-height:30px;padding-left:5px;}
+.index_bjtj{width:300px;height:240px;margin:0 auto;overflow:hidden;}
+.bjtj_pic{width:300px;height:220px;position:relative;zoom:1;overflow:hidden;}
+.bjtj_pic div{display:none;overflow:hidden;}
+.bjtj_num{width:300px;height:20px;}
+.bjtj_pic a{display:block;}
+.alpha{height:30px;width:300px;background:#000;position:absolute;bottom:0;left:0;filter:Alpha(Opacity=50);opacity:0.5;}
+.bjtj_link{position:absolute;bottom:0;left:0;line-height:30px;height:30px;width:290px;color:#fff;padding-left:10px;}
+.bjtj_num{background:#fde3d6;}
+.bjtj_select{float:left;height:20px;width:280px;padding:0 10px;}
+.bjtj_num .bjtj_select li{float:left;display:block;}
+.bjtj_select li a{cursor:pointer;color:#f26c23;display:block;line-height:16px;width:18px;height:16px;margin-top:4px;text-align:center;font-weight:bold;border-right:1px #feb27e solid;}
+.bjtj_select li .bjtj_tabnum{color:#fff;background:url(http://tx1.cdn.caijing.com.cn/2012/0316/caijing_ico.gif) 0 -377px no-repeat;height:16px;}
+.bjtj_pic div img{width:300px;height:220px;}
+.bjtj_pic div.bjtj_pic_show{display:block;width:300px;color:#207bc2;}
+.bjtj_pic div.bjtj_pic_show img{display:block;width:300px;height:220px;}
+.bjtj_num .bjtj_select .sleft{cursor:pointer;background:url(http://tx1.cdn.caijing.com.cn/2012/0316/caijing_ico.gif) 0 -393px no-repeat;height:20px;width:11px;margin-right:12px;float:right;}
+.bjtj_num .bjtj_select .sright{cursor:pointer;background:url(http://tx1.cdn.caijing.com.cn/2012/0316/caijing_ico.gif) 0 -413px no-repeat;height:20px;width:11px;float:right;}
+.bjtj_select .border_none a{border:none;}
+
+/* 文章排行榜 */
+.wzphb{margin-top:20px;}
+.wzphb_h3{height:30px;line-height:30px;border-top:3px #959ca2 solid;color:#5a5a5a;font-size:14px;}
+.wzph_tit{height:26px;background:url(http://tx1.cdn.caijing.com.cn/2012/0316/caijing_bg.gif) 0 -526px repeat-x;padding-left:3px;}
+.wzph_tit li{float:left;padding:0 1px;height:24px;display:inline;border:1px #dfdfdf solid;line-height:24px;cursor:pointer;}
+.wzph_tit li span{float:left;background:url(http://tx1.cdn.caijing.com.cn/2012/0316/caijing_bg.gif) 0 -552px repeat-x;padding:0 10px;display:block;line-height:24px;height:24px;}
+.wzph_tit .pht_show{background:#fff;border-bottom:none;height:25px;margin:0 2px;}
+.wzph_tit .pht_show span{background:#fff;color:#f36921;}
+.wzph_main ul{display:none;width:300px;margin-top:10px;overflow:hidden;}
+.wzph_main ul li{float:left;line-height:23px;border-bottom:1px #dfdfdf dotted;width:300px;height:23px;}
+.wzph_main ul li span{float:left;width:15px;height:15px;color:#f46b23;margin:4px 5px 0;text-align:center;line-height:15px;font-weight:bold;}
+.wzph_main ul li a{float:left;color:#414141;}
+.wzph_main .wzph_bg span{background:url(http://tx1.cdn.caijing.com.cn/2012/0316/caijing_ico.gif) 0 -467px no-repeat;color:#fff;}
+.wzph_main .phm_show{display:block;}
+.wzph2_main ul li{padding-left:5px;width:295px;}
+.wzph2_main ul li span{font-weight:normal;width:50px;}
+.wzph1_main ul li a{width:275px;height:23px;overflow:hidden;}
+.wzph3_tit li span{padding:0 4px;}
+.phb_tit li span{padding:0 8px;}
+.rt_topad2{padding-top:20px;}
+
+
+/* 新浪微博组件 */
+.ar_source{margin-bottom:10px;}
+.art_wbShare{padding:10px 0 20px;margin:0 10px;border-top:1px #e9eaee solid;overflow:hidden;zoom:1;}
+.artWbShare_ct{width:460px;float:left;}
+.cjartShare{position:relative;height:24px;margin:25px 0 40px;background:#EFEFEF;border-top:1px #CFCFCF solid;border-bottom:1px #CFCFCF solid;}
+.cjart_share{border:none;background:none;margin:0 10px;}
+.soac_follow .WB_FB_show .WB_FB_info{padding:0;}
+.wb_share{position:absolute;top:1px;_top:3px;left:10px;height:60px;width:420px;}
+.WB_widgets .clearfix:after{padding-top:5px;}
+.sina_zan{height:30px;}
+
+.rdzx_new{ padding-left:21px; zoom:1;}
+.rdzx_new li{padding-top:10px; float:left; width:312px; overflow:hidden;}
+.rdzx_new li a{width:312px;color:red;overflow:hidden;display:block; line-height:18px;}
+
+/*分享有礼*/
+.cjart_share{position:relative;}
+.share_fxyl{position:absolute;top:-23px;left:94px;width:53px;height:21px;}
+.share_fxyl img{float:left;}

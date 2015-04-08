@@ -1,0 +1,16 @@
+
+
+
+var m_hdt_pos_id='4215';
+var m_hdt_pos_str_id='4215';
+var m_hdt_ic5='0070062ddb562c992a7f320a0e869cb0';
+var m_hdt_rt_code='';
+
+
+		
+		document.write('<scr'+'ipt language="javascript" src="http://adm.icast.cn/nortb/hdt-ifocus/request/?id=PM130428'+m_hdt_pos_id+'&turl=http%3A//cast.ra.icast.cn/p2/%3Fid%3D'+m_hdt_pos_id+'%26res%3D'+screen.width+'x'+screen.height+'%26be_retarget%3Dno35"></scr'+'ipt>'); 
+		
+
+	
+
+document.write('<scr'+'ipt language="javascript" src="http://track.ra.icast.cn/ifocus/red.js"></scr'+'ipt>');
