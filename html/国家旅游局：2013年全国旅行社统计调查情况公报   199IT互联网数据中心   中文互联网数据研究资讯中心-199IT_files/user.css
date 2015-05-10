@@ -1,0 +1,212 @@
+﻿/*
+ * user.css
+ *
+ * Use this file for adding custom CSS style. These styles will override
+ * default theme styles. You can enable/disable this CSS file inside
+ * WordPress Appearance > Theme Options > General
+ */
+
+/* ---------------------------------------------------------------
+ * 1. GENERAL
+ * Place your general theme styles in this section.
+ * ------------------------------------------------------------ */
+
+body {
+	font-size: 1.2em;
+	line-height: 1.5;
+	font-family: "Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif,"Open Sans",Arial;
+	color: #555;
+	background: #f5f5f5;
+}
+
+body.custom-font-enabled {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: inherit;
+	color: #333;
+}
+
+h1 {
+	font-size: 2.0em;
+	line-height: 1.2;
+	margin-bottom: 0.6em;
+}
+
+h2,
+h1.page-title,
+h1.entry-title,
+.entry-list h3,
+.flex-caption h1,
+.flex-caption h2 {
+	font-size: 1.25em;
+	line-height: 1.375;
+	margin: 0 0 0.5em;
+}
+
+h3,
+.section-title {
+	font-size: 1.4em;
+	line-height: 1.5;
+	margin-bottom: 0.5em;
+}
+
+.section-title {
+	margin-bottom: 1em;
+	color: #999;
+}
+
+.section-title span {
+/*	font-weight: bold;
+	font-style: italic;*/
+}
+
+.section-title span a,
+.section-title span a:hover,
+.section-title span a:visited,
+.section-title span a:active {
+	color: inherit;
+}
+
+h4 {
+	font-size: 1.166em;
+	line-height: 1.5;
+	margin-bottom: 1.071em;
+}
+
+h5,
+h6 {
+	font-size: 1em;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+h6 {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #38485a;
+	text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover {
+	color: #000;
+}
+
+/* Links */
+a {
+	outline: none;
+	color: #336699;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e00000;
+	text-decoration: none;
+}
+
+.brand {
+	position: relative;
+	float: left;
+	width: auto;
+	max-width: 100%;
+	margin: 0 0 2.25em;
+	padding: 0;
+}
+
+.entry-content p{
+	font-size: 1.2em  ! important;
+line-height: 2em ! important;
+}
+
+
+/* ---------------------------------------------------------------
+ * youqinglianjie
+ * ------------------------------------------------------------ */
+.page-links{clear:both}
+.page-links h2{font-size:14px;color:#090;margin-bottom:12px}
+.page-links ul{margin-bottom:15px;overflow:auto;zoom:-1;border-top:#D6DBE0 1px solid;border-left:#D6DBE0 1px solid; margin-right:-1px;}
+.page-links ul li{width:33%;float:left}
+.page-links ul li a{display:block;border-right:#D6DBE0 1px solid;border-bottom:#D6DBE0 1px solid;padding:6px 5px;height:22px;overflow:hidden}
+.page-links ul li a:hover{border-bottom:#009900 2px solid;color:#090;font-weight:bold;height:21px}
+.page-links ul li img{position:relative;top:3px;margin:0 10px 0 5px;max-width:16px;max-height:16px;float:left;}
+
+#imgsmalllist .post-thumb img{
+max-height:50px;}
+
+
+
+/* ---------------------------------------------------------------
+ * 2. TABLET
+ * CSS fallback for device width 768px or below
+ * ------------------------------------------------------------ */
+
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+/* ---------------------------------------------------------------
+ * 3. MOBILE
+ * CSS fallback for device width 480px or below
+ * ------------------------------------------------------------ */
+
+@media only screen and (max-width:700px) {
+    #sidebar { display: none; }
+}
+
+@media only screen and (max-width:700px) {
+    #text-14 { display: none; }
+}
+
+@media only screen and (max-width:700px) {
+   #meta-hidden { display: none; }
+}
+
+@media only screen and (max-width:700px) {
+   #wumiiDisplayDiv { display: none; }
+}
+
+@media only screen and (max-width: 640px) {
+    #baiduadpage { display: none; }
+}
+@media only screen and (max-width:700px) {
+   #wumiiComments { display: none; }
+}
+
+@media only screen and (max-width:700px) {
+   #hidtag { display: none; }
+}
+
+@media only screen and (max-width:700px) {
+   #baidu_piaofu { display: none; }
+}
+
+@media only screen and (max-width:700px) {
+   #BAIDU_DUP_wrapper_919088_0 { display: none; }
+}
+.wumii-hook{margin:0;height:0px;}
+.wumii-widget-title{margin: 0; border: none; padding: 0px 0 5px !important; _padding-top:10px; text-indent: 0; text-align: left; font-weight: bold; }
+
+
+.rssbutton input{padding:0px 0px;}
+
